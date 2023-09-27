@@ -1,0 +1,398 @@
+//------FONT COLORS---------
+@tonal: #394264;
+@drk-blu: #252B42;
+@white: #fff;
+@ornge: #EC5C2E;
+@lgt-blu: #31A0FE;
+
+
+
+
+//--------FONT FAMILIES-----------
+@monst: 'Montserrat';
+@opn-sans: 'Open Sans';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background-color {
+    // height: 100vw;
+    background-color: @tonal;
+    width: 100%;
+
+    .hero-section {
+        margin: 0 auto;
+        max-width: 85%;
+        height: 100%;
+
+        .nav-bar {
+            width: 85%;
+            height: 8vw;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            background-color: @tonal;
+            justify-content: space-between;
+            position: fixed;
+
+            .logo {
+                display: flex;
+                align-items: center;
+
+                h5 {
+                    padding-left: 0.8vw;
+                    color: @white;
+                    font-family: @monst;
+                    font-size: 1.5vw;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 1.5vw;
+                    letter-spacing: 1px;
+                }
+
+            }
+
+            .nav-content {
+                display: flex;
+                gap: 4vw;
+
+                a {
+                    text-decoration: none;
+                    font-family: @monst;
+                    font-size: 1vw;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 1.75vw;
+                    letter-spacing: 0.1vw;
+                    color: @white;
+                }
+            }
+
+            .signup {
+
+                button {
+                    border: none;
+                    background-color: @white;
+                    padding: 0.5vw 2vw;
+                    border-radius: 1.5vw;
+                    font-family: @monst;
+                    font-size: 1vw;
+                    font-weight: 900;
+                    line-height: 1.75vw;
+                    letter-spacing: 0.1vw;
+                    &:hover {
+                        background-color: lightgray;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+            }
+
+            i {
+                display: none;
+            }
+
+
+        }
+
+        .xpert-container {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            padding-top: 8vw;
+            display: flex;
+            align-items: center;
+
+            .left {
+                width: 50%;
+                height: 100%;
+
+                h1 {
+                    width: 40vw;
+                    font-size: 5vw;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 4vw;
+                    letter-spacing: 0.2vw;
+                    line-height: 1.2;
+                    color: @white;
+                    font-family: @opn-sans;
+
+                    span {
+                        color: @ornge;
+                    }
+                }
+
+                .info {
+                    padding-top: 1.56vw;
+
+                    li {
+                        font-family: @monst;
+                        font-size: 1vw;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1.25vw;
+                        letter-spacing: 0.1vw;
+                        color: @white;
+                        list-style-type: none;
+                    }
+                }
+
+                .flex-btns {
+                    display: flex;
+                    gap: 1.5vw;
+                    padding-top: 3.3vw;
+
+                    .join {
+                        button {
+                            font-family: @monst;
+                            font-size: 1vw;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 28px;
+                            letter-spacing: 0.1vw;
+                            color: @drk-blu;
+                            padding: 0.6vw 2.5vw;
+                            border-radius: 4vw;
+                            border: none;
+                            background-color: @ornge;
+                            &:hover {
+                                background-color: #b84a26;
+                                transition: all 0.3s ease-in-out;
+                            }
+                        }
+                    }
+
+                    .start {
+                        button {
+                            font-family: @monst;
+                            font-size: 1vw;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 28px;
+                            letter-spacing: 0.1vw;
+                            color: @drk-blu;
+                            padding: 0.6vw 2.5vw;
+                            border-radius: 4vw;
+                            border: none;
+                            background-color: @white;
+                            &:hover {
+                                background-color: lightgray;
+                                transition: all 0.3s ease-in-out;
+                            }
+        
+                        }
+                    }
+                }
+
+                .ticks {
+                    padding-top: 3.25vw;
+                    display: flex;
+                    gap: 3vw;
+
+                    .two-ticks {
+                        display: flex;
+                        align-items: center;
+                        gap: 0.6vw;
+
+                        li {
+                            list-style-type: none;
+                            font-family: @monst;
+                            font-size: 1vw;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 1vw;
+                            color: @white;
+                            letter-spacing: 0.1vw;
+                        }
+                    }
+                }
+
+            }
+
+            .right {
+                width: 50%;
+                height: 100%;
+
+                .image-box {
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+
+                    .character {
+                        width: 41.92vw;
+                        height: 41.92vw;
+                        position: relative;
+                        z-index: 4;
+
+                    }
+
+                    .ellipse {
+                        width: 32vw;
+                        height: 32vw;
+                        position: absolute;
+                        left: 4.5vw;
+                        top: 9vw;
+
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+}
+
+
+//--------MEDIA QUERIES FOR 600PX-----------------------
+@media (max-width:600px) {
+
+    .background-color {
+        width: 100%;
+
+        // height: 120vw;
+        .hero-section {
+            max-width: 95%;
+            height: 100%;
+
+            .nav-bar {
+                width: 95%;
+                height: 12vw;
+
+                .logo {
+                    img {}
+
+                    h5 {
+                        padding-left: 1.8vw;
+                        font-size: 3.2vw;
+                    }
+                }
+
+                .nav-content {
+                    display: none;
+                }
+
+                .signup {
+                    display: none;
+                }
+
+                i {
+                    display: block;
+                    font-size: 6.2vw;
+                    color: @white;
+                }
+
+            }
+
+            .xpert-container {
+                padding-top: 12vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+
+                .left {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    h1 {
+                        width: 60vw;
+                        font-size: 10vw;
+                    }
+
+                    .info {
+                        padding-top: 6vw;
+
+                        li {
+                            font-size: 3.5vw;
+                            line-height: 1.5;
+                        }
+                    }
+
+                    .flex-btns {
+                        padding-top: 6vw;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        .join {
+                            button {
+                                font-size: 3.5vw;
+                                padding: 3vw 8vw;
+                                border-radius: 7vw;
+
+                            }
+                        }
+
+                        .start {
+                            padding-top: 5vw;
+
+                            button {
+                                font-size: 3.5vw;
+                                padding: 3vw 7vw;
+                                border-radius: 7vw;
+
+                            }
+                        }
+                    }
+
+                    .ticks {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        padding-top: 6vw;
+                        .two-ticks {
+                            gap: 1.5vw;
+                            img {
+                                width: 6vw;
+                            }
+                            li {
+                                font-size: 3.5vw;
+                            }
+                        }
+                    }
+                }
+
+                .right {
+                    width: 100%;
+                    height: 100%;
+                    padding-top: 6vw;
+                    .image-box {
+                        height: 100%;
+                        width: 100%;
+
+                        .character {
+                            height: 70vw;
+                            width: 70vw;
+                        }
+
+                        .ellipse {
+                            width: 54vw;
+                            height: 54vw;
+                            left: 19vw;
+                            top: 15vw;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+}
