@@ -290,7 +290,7 @@
 }
 .background-color2 .explored-container .in-cards .box .content {
   align-items: center;
-  padding-left: 1.5vw;
+  padding: 1.5vw;
 }
 .background-color2 .explored-container .in-cards .box .content h3 {
   font-family: 'Montserrat';
@@ -333,12 +333,12 @@
   }
   .background-color .nav-bar {
     width: 100%;
-    height: 12vw;
+    height: 16vw;
     padding: 0 2vw;
   }
   .background-color .nav-bar .logo h5 {
     padding-left: 1.8vw;
-    font-size: 3.2vw;
+    font-size: 3.5vw;
   }
   .background-color .nav-bar .nav-content {
     display: none;
@@ -348,11 +348,11 @@
   }
   .background-color .nav-bar i {
     display: block;
-    font-size: 6.2vw;
+    font-size: 8vw;
     color: #fff;
   }
   .background-color .xpert-container {
-    padding-top: 14vw;
+    padding-top: 20vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -465,6 +465,76 @@
     font-size: 3vw;
     line-height: 1.5;
   }
+  .background-color2 {
+    width: 100%;
+    height: 100%;
+  }
+  .background-color2 .explored-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 10vw;
+  }
+  .background-color2 .explored-container .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .background-color2 .explored-container .head h1 {
+    font-size: 8vw;
+    width: 80vw;
+    line-height: 10vw;
+    padding-bottom: 8vw;
+  }
+  .background-color2 .explored-container .head button {
+    font-size: 3vw;
+    padding: 3vw 8vw;
+    border: 1px solid #fff;
+    border-radius: 5vw;
+  }
+  .background-color2 .explored-container .head button:hover {
+    background-color: #fff;
+    color: #252B42;
+    transition: all 0.3s ease-in-out;
+  }
+  .background-color2 .explored-container .in-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8vw;
+    row-gap: 8vw;
+  }
+  .background-color2 .explored-container .in-cards .box {
+    padding: 0vw 1.5vw;
+    border-radius: 1.5vw;
+  }
+  .background-color2 .explored-container .in-cards .box img {
+    height: 24vw;
+    width: 24vw;
+  }
+  .background-color2 .explored-container .in-cards .box .content {
+    padding: 3vw;
+  }
+  .background-color2 .explored-container .in-cards .box .content h3 {
+    font-size: 4vw;
+    padding-bottom: 1vw;
+  }
+  .background-color2 .explored-container .in-cards .box .content .author {
+    font-size: 3vw;
+    padding-bottom: 1.5vw;
+  }
+  .background-color2 .explored-container .in-cards .box .content .stars {
+    padding-bottom: 1.5vw;
+  }
+  .background-color2 .explored-container .in-cards .box .content .stars img {
+    height: 4vw;
+    width: 4vw;
+  }
+  .background-color2 .explored-container .in-cards .box .content li {
+    font-size: 2.2vw;
+  }
 }
 @media (max-width: 420px) {
   .background-color {
@@ -472,18 +542,18 @@
   }
   .background-color .nav-bar {
     width: 100%;
-    height: 12vw;
+    height: 18vw;
   }
   .background-color .nav-bar .logo h5 {
     padding-left: 1.8vw;
-    font-size: 4.5vw;
+    font-size: 4.8vw;
   }
   .background-color .nav-bar i {
-    font-size: 8vw;
+    font-size: 10vw;
     color: #fff;
   }
   .background-color .xpert-container {
-    padding-top: 16vw;
+    padding-top: 26vw;
     width: 100%;
     height: 100%;
   }
@@ -496,30 +566,30 @@
     font-size: 12vw;
   }
   .background-color .xpert-container .left .info {
-    padding-top: 8vw;
+    padding-top: 10vw;
   }
   .background-color .xpert-container .left .info li {
     font-size: 3.5vw;
     line-height: 1.5;
   }
   .background-color .xpert-container .left .flex-btns {
-    padding-top: 8vw;
+    padding-top: 10vw;
   }
   .background-color .xpert-container .left .flex-btns .join button {
     font-size: 4vw;
-    padding: 3.5vw 9.5vw;
+    padding: 3.5vw 12vw;
     border-radius: 7vw;
   }
   .background-color .xpert-container .left .flex-btns .start {
-    padding-top: 5.5vw;
+    padding-top: 6vw;
   }
   .background-color .xpert-container .left .flex-btns .start button {
     font-size: 4vw;
-    padding: 3.5vw 9vw;
+    padding: 3.5vw 11vw;
     border-radius: 7vw;
   }
   .background-color .xpert-container .left .ticks {
-    padding-top: 8vw;
+    padding-top: 10vw;
   }
   .background-color .xpert-container .left .ticks .two-ticks {
     gap: 1.8vw;
@@ -533,7 +603,7 @@
   .background-color .xpert-container .right {
     width: 100%;
     height: 100%;
-    padding-top: 8vw;
+    padding-top: 10vw;
   }
   .background-color .xpert-container .right .image-box {
     height: 100%;
@@ -573,5 +643,62 @@
   .background-color .card-section .cards .text li {
     font-size: 4vw;
     line-height: 1.5;
+  }
+  .background-color2 {
+    width: 100%;
+    height: 100%;
+  }
+  .background-color2 .explored-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 16vw;
+  }
+  .background-color2 .explored-container .head {
+    padding-bottom: 4vw;
+  }
+  .background-color2 .explored-container .head h1 {
+    font-size: 10vw;
+    width: 90vw;
+    line-height: 12vw;
+    padding-bottom: 12vw;
+  }
+  .background-color2 .explored-container .head button {
+    font-size: 4vw;
+    padding: 4vw 10vw;
+    border: 1px solid #fff;
+    border-radius: 7vw;
+  }
+  .background-color2 .in-cards {
+    padding-top: 16vw;
+    row-gap: 10vw;
+  }
+  .background-color2 .in-cards .box {
+    padding: 0vw 1.5vw;
+    border-radius: 1.5vw;
+  }
+  .background-color2 .in-cards .box img {
+    height: 30vw;
+    width: 30vw;
+  }
+  .background-color2 .in-cards .box .content {
+    padding: 3vw;
+  }
+  .background-color2 .in-cards .box .content h3 {
+    font-size: 5vw;
+    padding-bottom: 1.2vw;
+  }
+  .background-color2 .in-cards .box .content .author {
+    font-size: 4vw;
+    padding-bottom: 1.5vw;
+  }
+  .background-color2 .in-cards .box .content .stars {
+    padding-bottom: 1.2vw;
+  }
+  .background-color2 .in-cards .box .content .stars img {
+    height: 5vw;
+    width: 5vw;
+  }
+  .background-color2 .in-cards .box .content li {
+    font-size: 3vw;
   }
 }
