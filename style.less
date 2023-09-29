@@ -2,6 +2,7 @@
 @tonal: #394264;
 @drk-blu: #252B42;
 @white: #fff;
+@gray: #737373;
 @ornge: #EC5C2E;
 @lgt-blu: #31A0FE;
 
@@ -20,234 +21,396 @@
 }
 
 .background-color {
-    // height: 100vw;
     background-color: @tonal;
     width: 100%;
 
-    .hero-section {
-        margin: 0 auto;
-        max-width: 85%;
-        height: 100%;
 
-        .nav-bar {
-            width: 85%;
-            height: 8vw;
-            z-index: 1000;
+    .nav-bar {
+        width: 100%;
+        padding: 0 8vw;
+        height: 6vw;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        background-color: @tonal;
+        justify-content: space-between;
+        position: fixed;
+
+        .logo {
             display: flex;
             align-items: center;
-            background-color: @tonal;
-            justify-content: space-between;
-            position: fixed;
 
-            .logo {
-                display: flex;
-                align-items: center;
-
-                h5 {
-                    padding-left: 0.8vw;
-                    color: @white;
-                    font-family: @monst;
-                    font-size: 1.5vw;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 1.5vw;
-                    letter-spacing: 1px;
-                }
-
+            h5 {
+                padding-left: 0.8vw;
+                color: @white;
+                font-family: @monst;
+                font-size: 1.5vw;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.5vw;
+                letter-spacing: 1px;
             }
-
-            .nav-content {
-                display: flex;
-                gap: 4vw;
-
-                a {
-                    text-decoration: none;
-                    font-family: @monst;
-                    font-size: 1vw;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 1.75vw;
-                    letter-spacing: 0.1vw;
-                    color: @white;
-                }
-            }
-
-            .signup {
-
-                button {
-                    border: none;
-                    background-color: @white;
-                    padding: 0.5vw 2vw;
-                    border-radius: 1.5vw;
-                    font-family: @monst;
-                    font-size: 1vw;
-                    font-weight: 900;
-                    line-height: 1.75vw;
-                    letter-spacing: 0.1vw;
-                    &:hover {
-                        background-color: lightgray;
-                        transition: all 0.3s ease-in-out;
-                    }
-                }
-            }
-
-            i {
-                display: none;
-            }
-
 
         }
 
-        .xpert-container {
-            width: 100%;
-            height: 100%;
-            margin: 0 auto;
-            padding-top: 8vw;
+        .nav-content {
             display: flex;
-            align-items: center;
+            gap: 4vw;
 
-            .left {
-                width: 50%;
-                height: 100%;
+            a {
+                text-decoration: none;
+                font-family: @monst;
+                font-size: 1vw;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.75vw;
+                letter-spacing: 0.1vw;
+                color: @white;
+            }
+        }
 
-                h1 {
-                    width: 40vw;
-                    font-size: 5vw;
+        .signup {
+
+            button {
+                border: none;
+                background-color: @white;
+                padding: 0.9vw 2vw;
+                border-radius: 1.5vw;
+                font-family: @monst;
+                font-size: 1vw;
+                font-weight: 900;
+                line-height: 1.75vw;
+                letter-spacing: 0.1vw;
+
+                &:hover {
+                    background-color: lightgray;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+        }
+
+        i {
+            display: none;
+        }
+
+
+    }
+
+    .xpert-container {
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 6vw 0;
+        display: flex;
+        align-items: center;
+
+        .left {
+            width: 50%;
+            height: 100%;
+
+            h1 {
+                width: 40vw;
+                font-size: 5vw;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 4vw;
+                letter-spacing: 0.2vw;
+                line-height: 1.2;
+                color: @white;
+                font-family: @opn-sans;
+
+                span {
+                    color: @ornge;
+                }
+            }
+
+            .info {
+                padding-top: 1.56vw;
+
+                li {
+                    font-family: @monst;
+                    font-size: 1vw;
                     font-style: normal;
-                    font-weight: 900;
-                    line-height: 4vw;
-                    letter-spacing: 0.2vw;
-                    line-height: 1.2;
+                    font-weight: 400;
+                    line-height: 1.25vw;
+                    letter-spacing: 0.1vw;
                     color: @white;
-                    font-family: @opn-sans;
+                    list-style-type: none;
+                }
+            }
 
-                    span {
-                        color: @ornge;
+            .flex-btns {
+                display: flex;
+                gap: 1.5vw;
+                padding-top: 3.3vw;
+
+                .join {
+                    button {
+                        font-family: @monst;
+                        font-size: 1vw;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 28px;
+                        letter-spacing: 0.1vw;
+                        color: @drk-blu;
+                        padding: 0.6vw 2.5vw;
+                        border-radius: 4vw;
+                        border: none;
+                        background-color: @ornge;
+
+                        &:hover {
+                            background-color: #b84a26;
+                            transition: all 0.3s ease-in-out;
+                        }
                     }
                 }
 
-                .info {
-                    padding-top: 1.56vw;
+                .start {
+                    button {
+                        font-family: @monst;
+                        font-size: 1vw;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 28px;
+                        letter-spacing: 0.1vw;
+                        color: @drk-blu;
+                        padding: 0.6vw 2.5vw;
+                        border-radius: 4vw;
+                        border: none;
+                        background-color: @white;
+
+                        &:hover {
+                            background-color: lightgray;
+                            transition: all 0.3s ease-in-out;
+                        }
+
+                    }
+                }
+            }
+
+            .ticks {
+                padding-top: 3.25vw;
+                display: flex;
+                gap: 3vw;
+
+                .two-ticks {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.6vw;
 
                     li {
+                        list-style-type: none;
                         font-family: @monst;
                         font-size: 1vw;
                         font-style: normal;
                         font-weight: 400;
-                        line-height: 1.25vw;
-                        letter-spacing: 0.1vw;
+                        line-height: 1vw;
                         color: @white;
-                        list-style-type: none;
+                        letter-spacing: 0.1vw;
                     }
                 }
-
-                .flex-btns {
-                    display: flex;
-                    gap: 1.5vw;
-                    padding-top: 3.3vw;
-
-                    .join {
-                        button {
-                            font-family: @monst;
-                            font-size: 1vw;
-                            font-style: normal;
-                            font-weight: 900;
-                            line-height: 28px;
-                            letter-spacing: 0.1vw;
-                            color: @drk-blu;
-                            padding: 0.6vw 2.5vw;
-                            border-radius: 4vw;
-                            border: none;
-                            background-color: @ornge;
-                            &:hover {
-                                background-color: #b84a26;
-                                transition: all 0.3s ease-in-out;
-                            }
-                        }
-                    }
-
-                    .start {
-                        button {
-                            font-family: @monst;
-                            font-size: 1vw;
-                            font-style: normal;
-                            font-weight: 900;
-                            line-height: 28px;
-                            letter-spacing: 0.1vw;
-                            color: @drk-blu;
-                            padding: 0.6vw 2.5vw;
-                            border-radius: 4vw;
-                            border: none;
-                            background-color: @white;
-                            &:hover {
-                                background-color: lightgray;
-                                transition: all 0.3s ease-in-out;
-                            }
-        
-                        }
-                    }
-                }
-
-                .ticks {
-                    padding-top: 3.25vw;
-                    display: flex;
-                    gap: 3vw;
-
-                    .two-ticks {
-                        display: flex;
-                        align-items: center;
-                        gap: 0.6vw;
-
-                        li {
-                            list-style-type: none;
-                            font-family: @monst;
-                            font-size: 1vw;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: 1vw;
-                            color: @white;
-                            letter-spacing: 0.1vw;
-                        }
-                    }
-                }
-
             }
 
-            .right {
-                width: 50%;
+        }
+
+        .right {
+            width: 50%;
+            height: 100%;
+
+            .image-box {
+                position: relative;
                 height: 100%;
+                width: 100%;
 
-                .image-box {
+                .character {
+                    width: 41.92vw;
+                    height: 41.92vw;
                     position: relative;
-                    height: 100%;
-                    width: 100%;
-
-                    .character {
-                        width: 41.92vw;
-                        height: 41.92vw;
-                        position: relative;
-                        z-index: 4;
-
-                    }
-
-                    .ellipse {
-                        width: 32vw;
-                        height: 32vw;
-                        position: absolute;
-                        left: 4.5vw;
-                        top: 9vw;
-
-                    }
+                    z-index: 4;
 
                 }
+
+                .ellipse {
+                    width: 32vw;
+                    height: 32vw;
+                    position: absolute;
+                    left: 4.5vw;
+                    top: 9vw;
+
+                }
+
+            }
+        }
+
+    }
+
+
+    .card-section {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        max-width: 85%;
+        height: 100%;
+        padding: 8vw 0;
+
+        .cards {
+            background-color: @white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 25vw;
+            padding: 3vw 0;
+            border-radius: 1vw;
+
+            img {
+                height: 5.5vw;
+                width: 5.5vw;
             }
 
+            h3 {
+                padding-top: 1.25vw;
+                font-family: @monst;
+                font-size: 1.5vw;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 1.5vw;
+                letter-spacing: 0.1vw;
+            }
+
+            .text {
+                padding-top: 1.25vw;
+                text-align: center;
+
+                li {
+                    font-family: @monst;
+                    font-size: 1vw;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 1.25;
+                    letter-spacing: 0.1vw;
+                }
+            }
+        }
+    }
+}
+
+.background-color2 {
+    background-color: @drk-blu;
+    width: 100%;
+    height: 100%;
+
+    .explored-container {
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 6.25vw 0;
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h1 {
+                font-family: @opn-sans;
+                font-size: 4vw;
+                font-style: normal;
+                width: 45vw;
+                color: @white;
+                font-weight: 700;
+                line-height: 5vw;
+                letter-spacing: 0.1vw;
+            }
+
+            button {
+                border: 1px solid @drk-blu;
+                background-color: @drk-blu;
+                padding: 1vw 2vw;
+                border-radius: 1.5vw;
+                font-family: @monst;
+                font-size: 1vw;
+                font-weight: 900;
+                color: @white;
+                letter-spacing: 0.1vw;
+
+                &:hover {
+                    border: 1px solid white;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+        }
+
+        .in-cards {
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 2.3vw;
+            padding-top: 5vw;
+            justify-content: space-between;
+            column-gap: 2vw;
+
+            .box {
+                background-color: @white;
+                display: flex;
+                padding: 0.5vw 0.5vw;
+                border-radius: 0.5vw;
+                align-items: center;
+
+                img {
+                    height: 9vw;
+                    width: 9vw;
+                }
+
+                .content {
+                    align-items: center;
+                    padding-left: 1.5vw;
+
+                    h3 {
+                        font-family: @monst;
+                        font-size: 1.2vw;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 1.5;
+                        letter-spacing: 0.1vw;
+                        padding-bottom: 0.2vw;
+                    }
+
+                    .author {
+                        font-family: @monst;
+                        font-size: 1vw;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 1.5;
+                        letter-spacing: 0.1vw;
+                        padding-bottom: 0.2vw;
+                        color: @gray;
+                    }
+
+                    .stars {
+                        padding-bottom: 0.5vw;
+
+                        img {
+                            height: 1.2vw;
+                            width: 1.2vw;
+                        }
+                    }
+
+                    li {
+                        font-family: @monst;
+                        font-size: 0.9vw;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1;
+                        letter-spacing: 0.1vw;
+                        color: @gray;
+                    }
+                }
+            }
         }
 
     }
 
 }
-
 
 //--------MEDIA QUERIES FOR 600PX-----------------------
 @media (max-width:600px) {
@@ -256,64 +419,234 @@
         width: 100%;
 
         // height: 120vw;
-        .hero-section {
-            max-width: 95%;
+        // .hero-section {
+        //     max-width: 95%;
+        //     height: 100%;
+
+        .nav-bar {
+            width: 100%;
+            height: 12vw;
+            padding: ;
+
+            .logo {
+
+                h5 {
+                    padding-left: 1.8vw;
+                    font-size: 3.2vw;
+                }
+            }
+
+            .nav-content {
+                display: none;
+            }
+
+            .signup {
+                display: none;
+            }
+
+            i {
+                display: block;
+                font-size: 6.2vw;
+                color: @white;
+            }
+
+        }
+
+        .xpert-container {
+            padding-top: 14vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
             height: 100%;
 
-            .nav-bar {
-                width: 95%;
-                height: 12vw;
+            .left {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
 
-                .logo {
-                    img {}
+                h1 {
+                    width: 60vw;
+                    font-size: 10vw;
+                }
 
-                    h5 {
-                        padding-left: 1.8vw;
-                        font-size: 3.2vw;
+                .info {
+                    padding-top: 6vw;
+
+                    li {
+                        font-size: 3.5vw;
+                        line-height: 1.5;
                     }
                 }
 
-                .nav-content {
-                    display: none;
+                .flex-btns {
+                    padding-top: 6vw;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    .join {
+                        button {
+                            font-size: 3.5vw;
+                            padding: 3vw 8vw;
+                            border-radius: 7vw;
+
+                        }
+                    }
+
+                    .start {
+                        padding-top: 5vw;
+
+                        button {
+                            font-size: 3.5vw;
+                            padding: 3vw 7vw;
+                            border-radius: 7vw;
+
+                        }
+                    }
                 }
 
-                .signup {
-                    display: none;
+                .ticks {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding-top: 6vw;
+
+                    .two-ticks {
+                        gap: 1.5vw;
+
+                        img {
+                            width: 6vw;
+                        }
+
+                        li {
+                            font-size: 3.5vw;
+                        }
+                    }
                 }
+            }
+
+            .right {
+                width: 100%;
+                height: 100%;
+                padding-top: 6vw;
+
+                .image-box {
+                    height: 100%;
+                    width: 100%;
+
+                    .character {
+                        height: 70vw;
+                        width: 70vw;
+                    }
+
+                    .ellipse {
+                        width: 54vw;
+                        height: 54vw;
+                        left: 19vw;
+                        top: 15vw;
+                    }
+                }
+            }
+        }
+
+        // }
+
+        .card-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 85%;
+            height: 100%;
+            gap: 8vw;
+            padding: 12vw 0;
+
+            .cards {
+                width: 100%;
+                padding: 12vw 0;
+                border-radius: 3vw;
+
+                img {
+                    height: 12.5vw;
+                    width: 12.5vw;
+                }
+
+                h3 {
+                    padding-top: 3vw;
+                    font-size: 4vw;
+                }
+
+                .text {
+                    padding-top: 3vw;
+
+                    li {
+                        font-size: 3vw;
+                        line-height: 1.5;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+
+
+}
+
+
+//--------------MEDIA QUERIES FOR 420PX-------------------
+@media (max-width:420px) {
+
+    .background-color {
+        width: 100%;
+
+        // height: 120vw;
+
+            .nav-bar {
+                width: 100%;
+                height: 12vw;
+                
+                .logo {
+
+                    h5 {
+                        padding-left: 1.8vw;
+                        font-size: 4.5vw;
+                    }
+                }
+
 
                 i {
-                    display: block;
-                    font-size: 6.2vw;
+                    font-size: 8vw;
                     color: @white;
                 }
 
             }
 
             .xpert-container {
-                padding-top: 12vw;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
+                padding-top: 16vw;
                 width: 100%;
                 height: 100%;
 
                 .left {
                     width: 100%;
                     height: 100%;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
 
                     h1 {
-                        width: 60vw;
-                        font-size: 10vw;
+                        width: 70vw;
+                        font-size: 12vw;
                     }
 
                     .info {
-                        padding-top: 6vw;
+                        padding-top: 8vw;
 
                         li {
                             font-size: 3.5vw;
@@ -322,27 +655,23 @@
                     }
 
                     .flex-btns {
-                        padding-top: 6vw;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
+                        padding-top: 8vw;
 
                         .join {
                             button {
-                                font-size: 3.5vw;
-                                padding: 3vw 8vw;
+                                font-size: 4vw;
+                                padding: 3.5vw 9.5vw;
                                 border-radius: 7vw;
 
                             }
                         }
 
                         .start {
-                            padding-top: 5vw;
+                            padding-top: 5.5vw;
 
                             button {
-                                font-size: 3.5vw;
-                                padding: 3vw 7vw;
+                                font-size: 4vw;
+                                padding: 3.5vw 9vw;
                                 border-radius: 7vw;
 
                             }
@@ -350,18 +679,17 @@
                     }
 
                     .ticks {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        padding-top: 6vw;
+                        padding-top: 8vw;
+
                         .two-ticks {
-                            gap: 1.5vw;
+                            gap: 1.8vw;
+
                             img {
                                 width: 6vw;
                             }
+
                             li {
-                                font-size: 3.5vw;
+                                font-size: 3.8vw;
                             }
                         }
                     }
@@ -370,29 +698,62 @@
                 .right {
                     width: 100%;
                     height: 100%;
-                    padding-top: 6vw;
+                    padding-top: 8vw;
+
                     .image-box {
                         height: 100%;
                         width: 100%;
 
                         .character {
-                            height: 70vw;
-                            width: 70vw;
+                            height: 80vw;
+                            width: 80vw;
                         }
 
                         .ellipse {
-                            width: 54vw;
-                            height: 54vw;
-                            left: 19vw;
-                            top: 15vw;
+                            width: 62vw;
+                            height: 62vw;
+                            left: 15vw;
+                            top: 16vw;
                         }
                     }
                 }
             }
+        
+
+        .card-section {
+            max-width: 85%;
+            gap: 10vw;
+            padding: 14vw 0;
+
+            .cards {
+                width: 100%;
+                padding: 13vw 0;
+                border-radius: 3vw;
+
+                img {
+                    height: 16vw;
+                    width: 16vw;
+                }
+
+                h3 {
+                    padding-top: 6vw;
+                    font-size: 6vw;
+                }
+
+                .text {
+                    padding-top: 6vw;
+
+                    li {
+                        font-size: 4vw;
+                        line-height: 1.5;
+                    }
+                }
+
+            }
+
         }
 
     }
-
 
 
 }
