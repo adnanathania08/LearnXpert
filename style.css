@@ -875,7 +875,7 @@
     padding-top: 14vw;
   }
   .background-color2 .workoff-container .left {
-    width: 80%;
+    width: 85%;
     height: 100%;
   }
   .background-color2 .workoff-container .left .image-box2 {
@@ -902,31 +902,31 @@
     text-align: center;
   }
   .background-color2 .workoff-container .right .text li {
-    font-size: 3vw;
+    font-size: 4vw;
     line-height: 1.4;
   }
   .background-color2 .workoff-container .right .options {
     padding-top: 10vw;
-    row-gap: 5.5vw;
+    row-gap: 6.5vw;
   }
   .background-color2 .workoff-container .right .options .three-opts {
     width: 90vw;
     padding: 3vw;
-    row-gap: 3vw;
+    row-gap: 4vw;
   }
   .background-color2 .workoff-container .right .options .three-opts img {
-    height: 15vw;
-    width: 15vw;
+    height: 17vw;
+    width: 17vw;
   }
   .background-color2 .workoff-container .right .options .three-opts .right-cntnt {
     padding: 2vw;
     padding-left: 3.5vw;
   }
   .background-color2 .workoff-container .right .options .three-opts .right-cntnt h5 {
-    font-size: 4.5vw;
-    padding-bottom: 2.8vw;
+    font-size: 5.5vw;
+    padding-bottom: 3.5vw;
   }
   .background-color2 .workoff-container .right .options .three-opts .right-cntnt li {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
