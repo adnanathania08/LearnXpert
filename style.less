@@ -262,7 +262,10 @@
             width: 25vw;
             padding: 3vw 0;
             border-radius: 1vw;
-
+            &:hover {
+                transform: scale(1.1);
+                transition: all 0.3s ease-in-out;
+            }
             img {
                 height: 5.5vw;
                 width: 5.5vw;
@@ -356,7 +359,10 @@
                 padding: 0.5vw 0.5vw;
                 border-radius: 0.5vw;
                 align-items: center;
-
+                &:hover {
+                    transform: scale(1.1);
+                    transition: all 0.3s ease-in-out;
+                }
                 img {
                     height: 9vw;
                     width: 9vw;
@@ -1074,49 +1080,50 @@
 
                 }
             }
-        }
-
-        .in-cards {
-            padding-top: 16vw;
-            row-gap: 10vw;
-
-            .box {
-                padding: 0vw 1.5vw;
-                border-radius: 1.5vw;
-
-                img {
-                    height: 30vw;
-                    width: 30vw;
-                }
-
-                .content {
-                    padding: 3vw;
-
-                    h3 {
-                        font-size: 5vw;
-                        padding-bottom: 1.2vw;
+            .in-cards {
+                padding-top: 16vw;
+                row-gap: 10vw;
+    
+                .box {
+                    padding: 0vw 1.5vw;
+                    border-radius: 1.5vw;
+    
+                    img {
+                        height: 30vw;
+                        width: 30vw;
                     }
-
-                    .author {
-                        font-size: 4vw;
-                        padding-bottom: 1.5vw;
-                    }
-
-                    .stars {
-                        padding-bottom: 1.2vw;
-
-                        img {
-                            height: 5vw;
-                            width: 5vw;
+    
+                    .content {
+                        padding: 3vw;
+    
+                        h3 {
+                            font-size: 5vw;
+                            padding-bottom: 1.2vw;
                         }
-                    }
-
-                    li {
-                        font-size: 3vw;
+    
+                        .author {
+                            font-size: 4vw;
+                            padding-bottom: 1.5vw;
+                        }
+    
+                        .stars {
+                            padding-bottom: 1.2vw;
+    
+                            img {
+                                height: 5vw;
+                                width: 5vw;
+                            }
+                        }
+    
+                        li {
+                            font-size: 3vw;
+                        }
                     }
                 }
             }
+    
         }
+
     }
 
 

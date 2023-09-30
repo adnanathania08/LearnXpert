@@ -202,6 +202,10 @@
   padding: 3vw 0;
   border-radius: 1vw;
 }
+.background-color .card-section .cards:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
 .background-color .card-section .cards img {
   height: 5.5vw;
   width: 5.5vw;
@@ -284,6 +288,10 @@
   padding: 0.5vw 0.5vw;
   border-radius: 0.5vw;
   align-items: center;
+}
+.background-color2 .explored-container .in-cards .box:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 .background-color2 .explored-container .in-cards .box img {
   height: 9vw;
@@ -836,37 +844,37 @@
     border: 1px solid #fff;
     border-radius: 7vw;
   }
-  .background-color2 .in-cards {
+  .background-color2 .explored-container .in-cards {
     padding-top: 16vw;
     row-gap: 10vw;
   }
-  .background-color2 .in-cards .box {
+  .background-color2 .explored-container .in-cards .box {
     padding: 0vw 1.5vw;
     border-radius: 1.5vw;
   }
-  .background-color2 .in-cards .box img {
+  .background-color2 .explored-container .in-cards .box img {
     height: 30vw;
     width: 30vw;
   }
-  .background-color2 .in-cards .box .content {
+  .background-color2 .explored-container .in-cards .box .content {
     padding: 3vw;
   }
-  .background-color2 .in-cards .box .content h3 {
+  .background-color2 .explored-container .in-cards .box .content h3 {
     font-size: 5vw;
     padding-bottom: 1.2vw;
   }
-  .background-color2 .in-cards .box .content .author {
+  .background-color2 .explored-container .in-cards .box .content .author {
     font-size: 4vw;
     padding-bottom: 1.5vw;
   }
-  .background-color2 .in-cards .box .content .stars {
+  .background-color2 .explored-container .in-cards .box .content .stars {
     padding-bottom: 1.2vw;
   }
-  .background-color2 .in-cards .box .content .stars img {
+  .background-color2 .explored-container .in-cards .box .content .stars img {
     height: 5vw;
     width: 5vw;
   }
-  .background-color2 .in-cards .box .content li {
+  .background-color2 .explored-container .in-cards .box .content li {
     font-size: 3vw;
   }
 }
