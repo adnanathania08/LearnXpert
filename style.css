@@ -432,6 +432,7 @@
   width: 85%;
   height: 100%;
   margin: 0 auto;
+  padding: 6.6vw 0;
 }
 .background-color2 .joinus-container .head-content h2 {
   padding-bottom: 1.5vw;
@@ -597,6 +598,101 @@
   border: 1px solid #EC5C2E;
   color: #fff;
   transition: all 0.3s ease-in-out;
+}
+.background-color2 .learners-container {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 6vw 0;
+  position: relative;
+}
+.background-color2 .learners-container h2 {
+  font-family: 'Open Sans';
+  font-size: 3.5vw;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1vw;
+  text-align: center;
+}
+.background-color2 .learners-container .profile-box {
+  padding-top: 6vw;
+  text-align: center;
+}
+.background-color2 .learners-container .profile-box .prof-pic {
+  padding-bottom: 0.8vw;
+}
+.background-color2 .learners-container .profile-box .prof-pic img {
+  height: 8vw;
+  width: 8vw;
+}
+.background-color2 .learners-container .profile-box .name {
+  font-family: 'Montserrat';
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 0.1vw;
+  color: #fff;
+  padding-bottom: 0.2vw;
+}
+.background-color2 .learners-container .profile-box .work {
+  font-family: 'Montserrat';
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1vw;
+  letter-spacing: 0.1vw;
+  color: rgba(255, 255, 255, 0.731);
+}
+.background-color2 .learners-container .profile-box .green-prof-stars {
+  padding-top: 2vw;
+}
+.background-color2 .learners-container .profile-box .green-prof-stars img {
+  padding-bottom: 1vw;
+}
+.background-color2 .learners-container .profile-box li {
+  list-style-type: none;
+  font-family: 'Montserrat';
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1vw;
+  color: #fff;
+}
+.background-color2 .learners-container .left1 {
+  position: absolute;
+  top: 30%;
+  height: 7vw;
+  width: 7vw;
+}
+.background-color2 .learners-container .left2 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  height: 6.5vw;
+  width: 6.5vw;
+}
+.background-color2 .learners-container .left3 {
+  position: absolute;
+  top: 75%;
+  height: 10vw;
+  width: 10vw;
+}
+.background-color2 .learners-container .right1 {
+  position: absolute;
+  right: 15%;
+  top: 35%;
+  height: 7.5vw;
+  width: 7.5vw;
+}
+.background-color2 .learners-container .right2 {
+  position: absolute;
+  right: 5%;
+  top: 70%;
+  height: 9vw;
+  width: 9vw;
 }
 @media (max-width: 600px) {
   .background-color {
@@ -949,6 +1045,70 @@
     padding: 2vw 7vw;
     border-radius: 5vw;
   }
+  .background-color2 .learners-container {
+    width: 90%;
+    height: 100%;
+    padding: 14vw 0;
+  }
+  .background-color2 .learners-container h2 {
+    font-size: 8vw;
+  }
+  .background-color2 .learners-container .profile-box {
+    padding-top: 10vw;
+  }
+  .background-color2 .learners-container .profile-box .prof-pic {
+    padding-bottom: 1vw;
+  }
+  .background-color2 .learners-container .profile-box .prof-pic img {
+    height: 15vw;
+    width: 15vw;
+  }
+  .background-color2 .learners-container .profile-box .name {
+    font-size: 4vw;
+  }
+  .background-color2 .learners-container .profile-box .work {
+    font-size: 2vw;
+    padding-top: 1vw;
+  }
+  .background-color2 .learners-container .profile-box .green-prof-stars {
+    padding-top: 6vw;
+    padding-bottom: 4vw;
+  }
+  .background-color2 .learners-container .profile-box .green-prof-stars img {
+    height: 5vw;
+    width: 5vw;
+  }
+  .background-color2 .learners-container .profile-box li {
+    font-size: 3vw;
+  }
+  .background-color2 .learners-container .left1 {
+    top: 30%;
+    height: 13vw;
+    width: 13vw;
+  }
+  .background-color2 .learners-container .left2 {
+    top: 50%;
+    left: 8%;
+    height: 11vw;
+    width: 11vw;
+  }
+  .background-color2 .learners-container .left3 {
+    top: 80%;
+    height: 15vw;
+    width: 15vw;
+  }
+  .background-color2 .learners-container .right1 {
+    right: 15%;
+    top: 35%;
+    height: 10vw;
+    width: 10vw;
+  }
+  .background-color2 .learners-container .right2 {
+    right: 5%;
+    top: 65%;
+    height: 15vw;
+    width: 15vw;
+  }
 }
 @media (max-width: 420px) {
   .background-color {
@@ -1241,5 +1401,69 @@
     font-size: 4vw;
     padding: 2.5vw 8vw;
     border-radius: 5.5vw;
+  }
+  .background-color2 .learners-container {
+    width: 90%;
+    height: 100%;
+    padding: 16vw 0;
+  }
+  .background-color2 .learners-container h2 {
+    font-size: 10vw;
+  }
+  .background-color2 .learners-container .profile-box {
+    padding-top: 12vw;
+  }
+  .background-color2 .learners-container .profile-box .prof-pic {
+    padding-bottom: 1.5vw;
+  }
+  .background-color2 .learners-container .profile-box .prof-pic img {
+    height: 22vw;
+    width: 22vw;
+  }
+  .background-color2 .learners-container .profile-box .name {
+    font-size: 7vw;
+  }
+  .background-color2 .learners-container .profile-box .work {
+    font-size: 3vw;
+    padding-top: 1vw;
+  }
+  .background-color2 .learners-container .profile-box .green-prof-stars {
+    padding-top: 8vw;
+    padding-bottom: 6vw;
+  }
+  .background-color2 .learners-container .profile-box .green-prof-stars img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .background-color2 .learners-container .profile-box li {
+    font-size: 4vw;
+  }
+  .background-color2 .learners-container .left1 {
+    top: 32%;
+    height: 15.5vw;
+    width: 15.5vw;
+  }
+  .background-color2 .learners-container .left2 {
+    top: 48%;
+    left: 6%;
+    height: 13vw;
+    width: 13vw;
+  }
+  .background-color2 .learners-container .left3 {
+    top: 67%;
+    height: 17.5vw;
+    width: 17.5vw;
+  }
+  .background-color2 .learners-container .right1 {
+    right: 10%;
+    top: 35%;
+    height: 14vw;
+    width: 14vw;
+  }
+  .background-color2 .learners-container .right2 {
+    right: 5%;
+    top: 60%;
+    height: 17vw;
+    width: 17vw;
   }
 }

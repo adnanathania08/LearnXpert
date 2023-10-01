@@ -534,6 +534,7 @@
         width: 85%;
         height: 100%;
         margin: 0 auto;
+        padding: 6.6vw 0;
 
         .head-content {
             h2 {
@@ -744,6 +745,117 @@
 
         }
 
+    }
+
+    .learners-container {
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 6vw 0;
+        position: relative;
+
+        h2 {
+            font-family: @opn-sans;
+            font-size: 3.5vw;
+            font-style: normal;
+            font-weight: 700;
+            color: @white;
+            letter-spacing: 0.1vw;
+            text-align: center;
+        }
+
+        .profile-box {
+            padding-top: 6vw;
+            text-align: center;
+
+            .prof-pic {
+                padding-bottom: 0.8vw;
+
+                img {
+                    height: 8vw;
+                    width: 8vw;
+                }
+            }
+
+            .name {
+                font-family: @monst;
+                font-size: 1.4vw;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 1.5;
+                letter-spacing: 0.1vw;
+                color: @white;
+                padding-bottom: 0.2vw;
+            }
+
+            .work {
+                font-family: @monst;
+                font-size: 1vw;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1vw;
+                letter-spacing: 0.1vw;
+                color: rgba(255, 255, 255, 0.731);
+            }
+
+            .green-prof-stars {
+                padding-top: 2vw;
+
+                img {
+                    padding-bottom: 1vw;
+                }
+            }
+
+            li {
+                list-style-type: none;
+                font-family: @monst;
+                font-size: 1.2vw;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.1vw;
+                color: @white;
+            }
+        }
+
+        .left1 {
+            position: absolute;
+            top: 30%;
+            height: 7vw;
+            width: 7vw;
+        }
+
+        .left2 {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            height: 6.5vw;
+            width: 6.5vw;
+        }
+
+        .left3 {
+            position: absolute;
+            top: 75%;
+            height: 10vw;
+            width: 10vw;
+
+        }
+
+        .right1 {
+            position: absolute;
+            right: 15%;
+            top: 35%;
+            height: 7.5vw;
+            width: 7.5vw;
+        }
+
+        .right2 {
+            position: absolute;
+            right: 5%;
+            top: 70%;
+            height: 9vw;
+            width: 9vw;
+        }
     }
 
 }
@@ -1126,13 +1238,16 @@
                 justify-content: center;
                 align-items: center;
                 row-gap: 8vw;
+
                 .buy-cards {
                     height: 100%;
                     width: 70.5vw;
                     padding: 5.5vw;
                     border-radius: 2vw;
+
                     .start-card {
                         padding-bottom: 4vw;
+
                         h5 {
                             font-size: 3vw;
 
@@ -1141,19 +1256,21 @@
 
                     .dollar {
                         padding-bottom: 4vw;
+
                         h4 {
                             font-size: 5vw;
                         }
 
                         .txt {
                             padding-left: 4vw;
+
                             .dark {
                                 font-size: 3vw;
                             }
 
                             .light {
                                 font-size: 2.5vw;
-                            }   
+                            }
                         }
                     }
 
@@ -1165,8 +1282,10 @@
 
                     .r-ticks {
                         padding-top: 6vw;
+
                         .content-tick {
                             padding-bottom: 4vw;
+
                             img {
                                 height: 6vw;
                                 width: 6vw;
@@ -1181,6 +1300,7 @@
 
                     .chse-btn {
                         padding-top: 6vw;
+
                         button {
                             font-size: 3vw;
                             padding: 2vw 7vw;
@@ -1188,6 +1308,87 @@
                         }
                     }
                 }
+            }
+        }
+
+        .learners-container {
+            width: 90%;
+            height: 100%;
+            padding: 14vw 0;
+
+            h2 {
+                font-size: 8vw;
+            }
+
+            .profile-box {
+                padding-top: 10vw;
+
+                .prof-pic {
+                    padding-bottom: 1vw;
+
+                    img {
+                        height: 15vw;
+                        width: 15vw;
+                    }
+                }
+
+                .name {
+                    font-size: 4vw;
+
+                }
+
+                .work {
+                    font-size: 2vw;
+                    padding-top: 1vw;
+                }
+
+                .green-prof-stars {
+                    padding-top: 6vw;
+                    padding-bottom: 4vw;
+
+                    img {
+                        height: 5vw;
+                        width: 5vw;
+                    }
+                }
+
+                li {
+                    font-size: 3vw;
+                }
+            }
+
+            .left1 {
+                top: 30%;
+                height: 13vw;
+                width: 13vw;
+            }
+
+            .left2 {
+                top: 50%;
+                left: 8%;
+                height: 11vw;
+                width: 11vw;
+            }
+
+            .left3 {
+                top: 80%;
+                height: 15vw;
+                width: 15vw;
+
+            }
+
+            .right1 {
+                right: 15%;
+                top: 35%;
+                height: 10vw;
+                width: 10vw;
+            }
+
+            .right2 {
+                right: 5%;
+                top: 65%;
+                height: 15vw;
+                width: 15vw;
             }
         }
     }
@@ -1497,6 +1698,7 @@
             }
 
         }
+
         .joinus-container {
             padding-top: 16vw;
             width: 100%;
@@ -1516,13 +1718,16 @@
             .three-buy-cards {
                 padding-top: 14vw;
                 row-gap: 10vw;
+
                 .buy-cards {
                     height: 100%;
                     width: 81.5vw;
                     padding: 6.5vw;
                     border-radius: 2vw;
+
                     .start-card {
                         padding-bottom: 6vw;
+
                         h5 {
                             font-size: 5vw;
 
@@ -1531,19 +1736,21 @@
 
                     .dollar {
                         padding-bottom: 6vw;
+
                         h4 {
                             font-size: 7vw;
                         }
 
                         .txt {
                             padding-left: 6vw;
+
                             .dark {
                                 font-size: 4vw;
                             }
 
                             .light {
                                 font-size: 3vw;
-                            }   
+                            }
                         }
                     }
 
@@ -1555,8 +1762,10 @@
 
                     .r-ticks {
                         padding-top: 8vw;
+
                         .content-tick {
                             padding-bottom: 6vw;
+
                             img {
                                 height: 8vw;
                                 width: 8vw;
@@ -1571,6 +1780,7 @@
 
                     .chse-btn {
                         padding-top: 8vw;
+
                         button {
                             font-size: 4vw;
                             padding: 2.5vw 8vw;
@@ -1580,6 +1790,88 @@
                 }
             }
         }
+
+        .learners-container {
+            width: 90%;
+            height: 100%;
+            padding: 16vw 0;
+
+            h2 {
+                font-size: 10vw;
+            }
+
+            .profile-box {
+                padding-top: 12vw;
+
+                .prof-pic {
+                    padding-bottom: 1.5vw;
+
+                    img {
+                        height: 22vw;
+                        width: 22vw;
+                    }
+                }
+
+                .name {
+                    font-size: 7vw;
+
+                }
+
+                .work {
+                    font-size: 3vw;
+                    padding-top: 1vw;
+                }
+
+                .green-prof-stars {
+                    padding-top: 8vw;
+                    padding-bottom: 6vw;
+
+                    img {
+                        height: 8vw;
+                        width: 8vw;
+                    }
+                }
+
+                li {
+                    font-size: 4vw;
+                }
+            }
+
+            .left1 {
+                top: 32%;
+                height: 15.5vw;
+                width: 15.5vw;
+            }
+
+            .left2 {
+                top: 48%;
+                left: 6%;
+                height: 13vw;
+                width: 13vw;
+            }
+
+            .left3 {
+                top: 67%;
+                height: 17.5vw;
+                width: 17.5vw;
+
+            }
+
+            .right1 {
+                right: 10%;
+                top: 35%;
+                height: 14vw;
+                width: 14vw;
+            }
+
+            .right2 {
+                right: 5%;
+                top: 60%;
+                height: 17vw;
+                width: 17vw;
+            }
+        }
+
 
 
 
