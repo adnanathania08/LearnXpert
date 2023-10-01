@@ -262,10 +262,12 @@
             width: 25vw;
             padding: 3vw 0;
             border-radius: 1vw;
+
             &:hover {
                 transform: scale(1.1);
                 transition: all 0.3s ease-in-out;
             }
+
             img {
                 height: 5.5vw;
                 width: 5.5vw;
@@ -359,10 +361,12 @@
                 padding: 0.5vw 0.5vw;
                 border-radius: 0.5vw;
                 align-items: center;
+
                 &:hover {
                     transform: scale(1.1);
                     transition: all 0.3s ease-in-out;
                 }
+
                 img {
                     height: 9vw;
                     width: 9vw;
@@ -424,50 +428,59 @@
         padding: 8.5vw 0;
         display: flex;
         justify-content: space-between;
+
         .left {
             width: 40%;
             height: 100%;
+
             .image-box2 {
                 width: 100%;
                 height: 100%;
+
                 img {
                     height: 100%;
                     width: 100%;
                 }
             }
         }
+
         .right {
             list-style-type: none;
             padding-top: 5vw;
             width: 50%;
             height: 100%;
+
             h2 {
                 width: 30vw;
                 font-family: @opn-sans;
                 font-size: 3vw;
                 font-style: normal;
                 font-weight: 900;
-                line-height: 3.2vw; 
-                letter-spacing: 0.1vw; 
+                line-height: 3.2vw;
+                letter-spacing: 0.1vw;
                 color: @white;
             }
+
             .text {
                 padding-top: 1.5vw;
+
                 li {
                     font-family: @monst;
                     font-size: 1vw;
                     font-style: normal;
                     font-weight: 500;
-                    line-height: 1.5vw; 
+                    line-height: 1.5vw;
                     letter-spacing: 0.1vw;
                     color: @white;
                 }
             }
+
             .options {
                 padding-top: 2vw;
                 display: grid;
                 flex-direction: row;
                 row-gap: 1.5vw;
+
                 .three-opts {
                     width: 40vw;
                     background-color: @drk-blu;
@@ -476,31 +489,36 @@
                     padding: 1.5vw;
                     border-radius: 2vw;
                     color: @white;
+
                     img {
                         height: 5.5vw;
                         width: 5.5vw;
                     }
+
                     .right-cntnt {
                         padding-left: 1.5vw;
+
                         h5 {
                             font-family: @monst;
                             font-size: 1.5vw;
                             font-style: normal;
                             font-weight: 900;
-                            line-height: 1.5vw; 
+                            line-height: 1.5vw;
                             padding-bottom: 0.8vw;
                         }
+
                         li {
                             font-family: @monst;
                             font-size: 1vw;
                             font-style: normal;
                             font-weight: 500;
-                            line-height: 1.4; 
+                            line-height: 1.4;
                             letter-spacing: 0.1vw;
-                            
+
                         }
-    
+
                     }
+
                     &:hover {
                         background-color: @white;
                         color: black;
@@ -509,6 +527,223 @@
                 }
             }
         }
+    }
+
+    .joinus-container {
+        list-style-type: none;
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+
+        .head-content {
+            h2 {
+                padding-bottom: 1.5vw;
+                font-family: @opn-sans;
+                font-size: 4vw;
+                font-style: normal;
+                font-weight: 900;
+                letter-spacing: 0.1vw;
+                color: @white;
+                text-align: center;
+            }
+
+            li {
+                font-family: @monst;
+                font-size: 1vw;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.1vw;
+                color: @white;
+                text-align: center;
+            }
+
+        }
+
+        .three-buy-cards {
+            padding-top: 5.7vw;
+            display: flex;
+            justify-content: space-around;
+
+            .buy-cards {
+                background-color: @tonal;
+                border-radius: 0.8vw;
+                width: 25.5vw;
+                height: 100%;
+                padding: 2.5vw;
+
+                .start-card {
+                    padding-bottom: 1vw;
+
+                    h5 {
+                        font-family: @monst;
+                        font-size: 1.2vw;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 1.5;
+                        color: @white;
+                    }
+                }
+
+                .dollar {
+                    display: flex;
+                    align-items: center;
+
+                    h4 {
+                        font-family: @opn-sans;
+                        font-size: 2.5vw;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 1.5;
+                        letter-spacing: 0.1vw;
+                        padding-bottom: 1vw;
+                        border-bottom: 4px solid @lgt-blu;
+                        color: @white;
+                    }
+
+                    .txt {
+                        padding-left: 1vw;
+
+                        .dark {
+                            font-family: @monst;
+                            font-size: 1vw;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 1.5;
+                            padding-bottom: 0.5vw;
+                            color: @white;
+                        }
+
+                        .light {
+                            font-family: @monst;
+                            font-size: 0.8vw;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 1;
+                            letter-spacing: 0.1vw;
+                            color: @white;
+                        }
+                    }
+                }
+
+                .state {
+                    padding-top: 1.2vw;
+
+                    li {
+                        font-family: @monst;
+                        font-size: 1vw;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1;
+                        letter-spacing: 0.1vw;
+                        color: @white;
+                    }
+                }
+
+                .r-ticks {
+                    padding-top: 2vw;
+
+                    .content-tick {
+                        display: flex;
+                        align-items: center;
+                        gap: 0.5vw;
+                        padding-bottom: 1.2vw;
+
+                        img {
+                            height: 2.5vw;
+                            width: 2.5vw;
+                        }
+
+                        li {
+                            padding-left: 0.8vw;
+                            font-family: @monst;
+                            font-size: 1vw;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 1.5;
+                            letter-spacing: 0.1vw;
+                            color: @white;
+                        }
+                    }
+                }
+
+                .chse-btn {
+                    text-align: center;
+                    padding-top: 1.5vw;
+
+                    button {
+                        padding: 1vw 4vw;
+                        border-radius: 2vw;
+                        font-family: @monst;
+                        font-size: 1vw;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 1.5;
+                        letter-spacing: 0.1vw;
+                        background-color: @ornge;
+                        color: @white;
+                        border: 1px solid @ornge;
+                    }
+                }
+
+                &:hover {
+                    transform: scale(1.1);
+                    transition: all 0.3s ease-in-out;
+                    background-color: @white;
+
+                    .start-card {
+                        h5 {
+                            color: black;
+                        }
+                    }
+
+                    .dollar {
+                        h4 {
+                            color: black;
+                        }
+                    }
+
+                    .txt {
+                        .dark {
+                            color: black;
+                        }
+
+                        .light {
+                            color: @gray;
+                        }
+                    }
+
+                    .state {
+                        li {
+                            color: @gray;
+                        }
+                    }
+
+                    .content-tick {
+                        li {
+                            color: black;
+                        }
+                    }
+
+                    .chse-btn {
+                        button {
+                            color: black;
+                            background-color: @white;
+                            border: 1px solid black;
+
+                            &:hover {
+                                background-color: @ornge;
+                                border: 1px solid @ornge;
+                                color: @white;
+                                transition: all 0.3s ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
     }
 
 }
@@ -785,12 +1020,15 @@
             justify-content: center;
             align-items: center;
             padding-top: 12vw;
+
             .left {
                 width: 65%;
                 height: 100%;
+
                 .image-box2 {
                     width: 100%;
                     height: 100%;
+
                     img {
                         height: 100%;
                         width: 100%;
@@ -807,23 +1045,28 @@
                 align-items: center;
                 justify-content: center;
                 padding-top: 14vw;
+
                 h2 {
                     width: 85%;
                     font-size: 8vw;
                     line-height: 1;
+                    text-align: center;
                 }
 
                 .text {
                     padding-top: 6vw;
+
                     li {
                         font-size: 2.3vw;
                         line-height: 1.4;
+                        text-align: center;
                     }
                 }
 
                 .options {
                     padding-top: 8vw;
                     row-gap: 5.5vw;
+
                     .three-opts {
                         display: flex;
                         flex-direction: column;
@@ -832,17 +1075,21 @@
                         width: 80vw;
                         padding: 2vw;
                         row-gap: 2vw;
+
                         img {
                             height: 14vw;
                             width: 14vw;
                         }
+
                         .right-cntnt {
                             padding: 2vw;
                             text-align: center;
+
                             h5 {
                                 font-size: 4vw;
                                 padding-bottom: 2.8vw;
                             }
+
                             li {
                                 font-size: 2.5vw;
                             }
@@ -854,6 +1101,94 @@
 
             }
 
+        }
+
+        .joinus-container {
+            padding-top: 14vw;
+            width: 100%;
+            height: 100%;
+
+            .head-content {
+                h2 {
+                    font-size: 8vw;
+                }
+
+                li {
+                    font-size: 2.3vw;
+                    padding-top: 4vw;
+                }
+            }
+
+            .three-buy-cards {
+                padding-top: 12vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                row-gap: 8vw;
+                .buy-cards {
+                    height: 100%;
+                    width: 70.5vw;
+                    padding: 5.5vw;
+                    border-radius: 2vw;
+                    .start-card {
+                        padding-bottom: 4vw;
+                        h5 {
+                            font-size: 3vw;
+
+                        }
+                    }
+
+                    .dollar {
+                        padding-bottom: 4vw;
+                        h4 {
+                            font-size: 5vw;
+                        }
+
+                        .txt {
+                            padding-left: 4vw;
+                            .dark {
+                                font-size: 3vw;
+                            }
+
+                            .light {
+                                font-size: 2.5vw;
+                            }   
+                        }
+                    }
+
+                    .state {
+                        li {
+                            font-size: 2.5vw;
+                        }
+                    }
+
+                    .r-ticks {
+                        padding-top: 6vw;
+                        .content-tick {
+                            padding-bottom: 4vw;
+                            img {
+                                height: 6vw;
+                                width: 6vw;
+                            }
+
+                            li {
+                                font-size: 3vw;
+                                padding-left: 2vw;
+                            }
+                        }
+                    }
+
+                    .chse-btn {
+                        padding-top: 6vw;
+                        button {
+                            font-size: 3vw;
+                            padding: 2vw 7vw;
+                            border-radius: 5vw;
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -1024,9 +1359,10 @@
 
             .head {
                 padding-bottom: 4vw;
+
                 h1 {
                     font-size: 10vw;
-                    width: 90vw;
+                    width: 98%;
                     line-height: 12vw;
                     padding-bottom: 12vw;
                 }
@@ -1039,59 +1375,63 @@
 
                 }
             }
+
             .in-cards {
                 padding-top: 16vw;
                 row-gap: 10vw;
-    
+
                 .box {
                     padding: 0vw 1.5vw;
                     border-radius: 1.5vw;
-    
+
                     img {
                         height: 30vw;
                         width: 30vw;
                     }
-    
+
                     .content {
                         padding: 3vw;
-    
+
                         h3 {
                             font-size: 5vw;
                             padding-bottom: 1.2vw;
                         }
-    
+
                         .author {
                             font-size: 4vw;
                             padding-bottom: 1.5vw;
                         }
-    
+
                         .stars {
                             padding-bottom: 1.2vw;
-    
+
                             img {
                                 height: 5vw;
                                 width: 5vw;
                             }
                         }
-    
+
                         li {
                             font-size: 3vw;
                         }
                     }
                 }
             }
-    
+
         }
 
         .workoff-container {
             width: 100%;
             padding-top: 14vw;
+
             .left {
                 width: 85%;
                 height: 100%;
+
                 .image-box2 {
                     width: 100%;
                     height: 100%;
+
                     img {
                         height: 100%;
                         width: 100%;
@@ -1104,6 +1444,7 @@
                 width: 100%;
                 height: 100%;
                 padding-top: 14vw;
+
                 h2 {
                     width: 90%;
                     font-size: 10vw;
@@ -1114,6 +1455,7 @@
                 .text {
                     padding: 3vw;
                     text-align: center;
+
                     li {
                         font-size: 4vw;
                         line-height: 1.4;
@@ -1123,21 +1465,26 @@
                 .options {
                     padding-top: 10vw;
                     row-gap: 6.5vw;
+
                     .three-opts {
                         width: 90vw;
                         padding: 3vw;
                         row-gap: 4vw;
+
                         img {
                             height: 17vw;
                             width: 17vw;
                         }
+
                         .right-cntnt {
                             padding: 2vw;
                             padding-left: 3.5vw;
+
                             h5 {
                                 font-size: 5.5vw;
                                 padding-bottom: 3.5vw;
                             }
+
                             li {
                                 font-size: 4vw;
                             }
@@ -1150,12 +1497,92 @@
             }
 
         }
+        .joinus-container {
+            padding-top: 16vw;
+            width: 100%;
+            height: 100%;
+
+            .head-content {
+                h2 {
+                    font-size: 10vw;
+                }
+
+                li {
+                    font-size: 4vw;
+                    padding-top: 6vw;
+                }
+            }
+
+            .three-buy-cards {
+                padding-top: 14vw;
+                row-gap: 10vw;
+                .buy-cards {
+                    height: 100%;
+                    width: 81.5vw;
+                    padding: 6.5vw;
+                    border-radius: 2vw;
+                    .start-card {
+                        padding-bottom: 6vw;
+                        h5 {
+                            font-size: 5vw;
+
+                        }
+                    }
+
+                    .dollar {
+                        padding-bottom: 6vw;
+                        h4 {
+                            font-size: 7vw;
+                        }
+
+                        .txt {
+                            padding-left: 6vw;
+                            .dark {
+                                font-size: 4vw;
+                            }
+
+                            .light {
+                                font-size: 3vw;
+                            }   
+                        }
+                    }
+
+                    .state {
+                        li {
+                            font-size: 3vw;
+                        }
+                    }
+
+                    .r-ticks {
+                        padding-top: 8vw;
+                        .content-tick {
+                            padding-bottom: 6vw;
+                            img {
+                                height: 8vw;
+                                width: 8vw;
+                            }
+
+                            li {
+                                font-size: 4vw;
+                                padding-left: 2.5vw;
+                            }
+                        }
+                    }
+
+                    .chse-btn {
+                        padding-top: 8vw;
+                        button {
+                            font-size: 4vw;
+                            padding: 2.5vw 8vw;
+                            border-radius: 5.5vw;
+                        }
+                    }
+                }
+            }
+        }
+
 
 
     }
-
-
-
-
 
 }

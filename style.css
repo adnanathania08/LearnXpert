@@ -427,6 +427,177 @@
   color: black;
   transition: all 0.3s ease-in-out;
 }
+.background-color2 .joinus-container {
+  list-style-type: none;
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+.background-color2 .joinus-container .head-content h2 {
+  padding-bottom: 1.5vw;
+  font-family: 'Open Sans';
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.1vw;
+  color: #fff;
+  text-align: center;
+}
+.background-color2 .joinus-container .head-content li {
+  font-family: 'Montserrat';
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1vw;
+  color: #fff;
+  text-align: center;
+}
+.background-color2 .joinus-container .three-buy-cards {
+  padding-top: 5.7vw;
+  display: flex;
+  justify-content: space-around;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards {
+  background-color: #394264;
+  border-radius: 0.8vw;
+  width: 25.5vw;
+  height: 100%;
+  padding: 2.5vw;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .start-card {
+  padding-bottom: 1vw;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .start-card h5 {
+  font-family: 'Montserrat';
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #fff;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .dollar {
+  display: flex;
+  align-items: center;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .dollar h4 {
+  font-family: 'Open Sans';
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 0.1vw;
+  padding-bottom: 1vw;
+  border-bottom: 4px solid #31A0FE;
+  color: #fff;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .dollar .txt {
+  padding-left: 1vw;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .dollar .txt .dark {
+  font-family: 'Montserrat';
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-bottom: 0.5vw;
+  color: #fff;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .dollar .txt .light {
+  font-family: 'Montserrat';
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.1vw;
+  color: #fff;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .state {
+  padding-top: 1.2vw;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .state li {
+  font-family: 'Montserrat';
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.1vw;
+  color: #fff;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks {
+  padding-top: 2vw;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks .content-tick {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  padding-bottom: 1.2vw;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks .content-tick img {
+  height: 2.5vw;
+  width: 2.5vw;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks .content-tick li {
+  padding-left: 0.8vw;
+  font-family: 'Montserrat';
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 0.1vw;
+  color: #fff;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .chse-btn {
+  text-align: center;
+  padding-top: 1.5vw;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards .chse-btn button {
+  padding: 1vw 4vw;
+  border-radius: 2vw;
+  font-family: 'Montserrat';
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.1vw;
+  background-color: #EC5C2E;
+  color: #fff;
+  border: 1px solid #EC5C2E;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards:hover .start-card h5 {
+  color: black;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards:hover .dollar h4 {
+  color: black;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards:hover .txt .dark {
+  color: black;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards:hover .txt .light {
+  color: #737373;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards:hover .state li {
+  color: #737373;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards:hover .content-tick li {
+  color: black;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards:hover .chse-btn button {
+  color: black;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.background-color2 .joinus-container .three-buy-cards .buy-cards:hover .chse-btn button:hover {
+  background-color: #EC5C2E;
+  border: 1px solid #EC5C2E;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
 @media (max-width: 600px) {
   .background-color {
     width: 100%;
@@ -668,6 +839,7 @@
     width: 85%;
     font-size: 8vw;
     line-height: 1;
+    text-align: center;
   }
   .background-color2 .workoff-container .right .text {
     padding-top: 6vw;
@@ -675,6 +847,7 @@
   .background-color2 .workoff-container .right .text li {
     font-size: 2.3vw;
     line-height: 1.4;
+    text-align: center;
   }
   .background-color2 .workoff-container .right .options {
     padding-top: 8vw;
@@ -703,6 +876,78 @@
   }
   .background-color2 .workoff-container .right .options .three-opts .right-cntnt li {
     font-size: 2.5vw;
+  }
+  .background-color2 .joinus-container {
+    padding-top: 14vw;
+    width: 100%;
+    height: 100%;
+  }
+  .background-color2 .joinus-container .head-content h2 {
+    font-size: 8vw;
+  }
+  .background-color2 .joinus-container .head-content li {
+    font-size: 2.3vw;
+    padding-top: 4vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards {
+    padding-top: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 8vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards {
+    height: 100%;
+    width: 70.5vw;
+    padding: 5.5vw;
+    border-radius: 2vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .start-card {
+    padding-bottom: 4vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .start-card h5 {
+    font-size: 3vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .dollar {
+    padding-bottom: 4vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .dollar h4 {
+    font-size: 5vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .dollar .txt {
+    padding-left: 4vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .dollar .txt .dark {
+    font-size: 3vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .dollar .txt .light {
+    font-size: 2.5vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .state li {
+    font-size: 2.5vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks {
+    padding-top: 6vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks .content-tick {
+    padding-bottom: 4vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks .content-tick img {
+    height: 6vw;
+    width: 6vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks .content-tick li {
+    font-size: 3vw;
+    padding-left: 2vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .chse-btn {
+    padding-top: 6vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .chse-btn button {
+    font-size: 3vw;
+    padding: 2vw 7vw;
+    border-radius: 5vw;
   }
 }
 @media (max-width: 420px) {
@@ -827,7 +1072,7 @@
   }
   .background-color2 .explored-container .head h1 {
     font-size: 10vw;
-    width: 90vw;
+    width: 98%;
     line-height: 12vw;
     padding-bottom: 12vw;
   }
@@ -928,5 +1173,73 @@
   }
   .background-color2 .workoff-container .right .options .three-opts .right-cntnt li {
     font-size: 4vw;
+  }
+  .background-color2 .joinus-container {
+    padding-top: 16vw;
+    width: 100%;
+    height: 100%;
+  }
+  .background-color2 .joinus-container .head-content h2 {
+    font-size: 10vw;
+  }
+  .background-color2 .joinus-container .head-content li {
+    font-size: 4vw;
+    padding-top: 6vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards {
+    padding-top: 14vw;
+    row-gap: 10vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards {
+    height: 100%;
+    width: 81.5vw;
+    padding: 6.5vw;
+    border-radius: 2vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .start-card {
+    padding-bottom: 6vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .start-card h5 {
+    font-size: 5vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .dollar {
+    padding-bottom: 6vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .dollar h4 {
+    font-size: 7vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .dollar .txt {
+    padding-left: 6vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .dollar .txt .dark {
+    font-size: 4vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .dollar .txt .light {
+    font-size: 3vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .state li {
+    font-size: 3vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks {
+    padding-top: 8vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks .content-tick {
+    padding-bottom: 6vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks .content-tick img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .r-ticks .content-tick li {
+    font-size: 4vw;
+    padding-left: 2.5vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .chse-btn {
+    padding-top: 8vw;
+  }
+  .background-color2 .joinus-container .three-buy-cards .buy-cards .chse-btn button {
+    font-size: 4vw;
+    padding: 2.5vw 8vw;
+    border-radius: 5.5vw;
   }
 }
