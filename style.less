@@ -751,7 +751,8 @@
         width: 85%;
         height: 100%;
         margin: 0 auto;
-        padding: 6vw 0;
+        padding-top: 6vw ;
+        padding-bottom: 10vw;
         position: relative;
 
         h2 {
@@ -820,14 +821,14 @@
 
         .left1 {
             position: absolute;
-            top: 30%;
+            top: 25%;
             height: 7vw;
             width: 7vw;
         }
 
         .left2 {
             position: absolute;
-            top: 50%;
+            top: 47%;
             left: 10%;
             height: 6.5vw;
             width: 6.5vw;
@@ -835,7 +836,7 @@
 
         .left3 {
             position: absolute;
-            top: 75%;
+            top: 70%;
             height: 10vw;
             width: 10vw;
 
@@ -852,7 +853,7 @@
         .right2 {
             position: absolute;
             right: 5%;
-            top: 70%;
+            top: 60%;
             height: 9vw;
             width: 9vw;
         }
@@ -860,6 +861,181 @@
 
 }
 
+.background-color3 {
+    background-color: @tonal;
+    width: 100%;
+    .journey-today {
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5vw;
+        .left-j {
+            h2 {
+                font-family: @opn-sans;
+                font-size: 3.5vw;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1; 
+                letter-spacing: 0.1vw;
+                color: @white;
+                padding-bottom: 2vw;
+            }
+            li {
+                list-style-type: none;
+                font-family: @monst;
+                font-size: 1.2vw;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.1vw;
+                color: @white;
+
+            }
+        }
+        .right-btn {
+            button {
+                padding: 1vw 3vw;
+                border-radius: 2vw;
+                font-family: @monst;
+                font-size: 1.2vw;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.5;
+                letter-spacing: 0.1vw;
+                background-color: @ornge;
+                color: @white;
+                border: 1px solid @ornge;
+
+            }
+        }
+    }
+    
+}
+
+.background-color4 {
+    width: 100%;
+    height: 100%;
+    background-color: @drk-blu;
+    .footer {
+        margin: 0 auto;
+        width: 85%;
+        height: 100%;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 3fr 1fr 1.5fr;
+        padding: 5vw;
+        .three-section1 {
+            h3 {
+                font-family: @opn-sans;
+                font-size: 1.6vw;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 1.5;
+                letter-spacing: 0.1vw;
+                color: @white;
+                padding-bottom: 1.5vw;
+            }
+            li {
+                list-style-type: none;
+                font-family: @monst;
+                font-size: 1.1vw;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.1vw;
+                color: @white;
+
+            }
+            .social-icons {
+                padding-top: 1.5vw;
+                display: flex;
+                gap: 2vw;
+                i {
+                    color: @ornge;
+                    font-size: 2.5vw;
+                    &:hover {
+                        color: @white;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+            }
+        }
+        .three-section2 {
+            h3 {
+                font-family: @opn-sans;
+                font-size: 1.6vw;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 1.5;
+                letter-spacing: 0.1vw;
+                color: @white;
+                padding-bottom: 1.5vw;
+            }
+            li {
+                list-style-type: none;
+                font-family: @monst;
+                font-size: 1.1vw;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.8;
+                letter-spacing: 0.1vw;
+                color: @white;
+
+            }
+        }
+        .three-section3 {
+            text-align: center;
+            h3 {
+                font-family: @opn-sans;
+                font-size: 1.6vw;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 1.5;
+                letter-spacing: 0.1vw;
+                color: @white;
+                padding-bottom: 1.5vw;
+            }
+            li {
+                list-style-type: none;
+                font-family: @monst;
+                font-size: 1.1vw;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.8;
+                letter-spacing: 0.1vw;
+                color: @white;
+
+            }
+        }
+    }
+}
+.background-color5 {
+    width: 100%;
+    height: 100%;
+    background-color: @tonal;
+    .copyright {
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2vw 0;
+        li {
+            list-style-type: none;
+            list-style-type: none;
+            font-family: @monst;
+            font-size: 1.1vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.8;
+            letter-spacing: 0.1vw;
+            color: @white;
+
+        }
+    }
+}
 //--------MEDIA QUERIES FOR 600PX-----------------------
 @media (max-width:600px) {
 
@@ -1393,6 +1569,104 @@
         }
     }
 
+    .background-color3 {
+        width: 100%;
+        height: 100%;
+        .journey-today {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 14vw 0;
+            .left-j {
+                h2 {
+                    font-size: 8vw;
+                    padding-bottom: 4vw;
+
+                }
+                li {
+                    font-size: 3vw;
+                }
+            }
+            .right-btn {
+                padding-top: 4vw;
+                button {
+                    font-size: 3vw;
+                    padding: 2vw 6vw;
+                    border-radius: 5vw;
+                }
+            }
+        }
+        
+    }
+
+    .background-color4  {
+        width: 100%;
+        height: 100%;
+        .footer {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 14vw 0;
+            .three-section1 {
+                h3 {
+                    font-size: 5vw;
+                    padding-bottom: 2vw;
+                }
+                li {
+                    font-size: 3vw;
+                }
+                .social-icons {
+                    padding-top: 2vw;
+                    justify-content: space-around;
+                    i {
+                        font-size: 6vw;
+                    }
+                }
+            }
+            .three-section2 {
+                padding-top: 6vw;
+                h3 {
+                    font-size: 5vw;
+                    padding-bottom: 2vw;
+                }
+                li {
+                    font-size: 3vw;
+                }
+            }
+            .three-section3 {
+                padding-top: 6vw;
+                h3 {
+                    font-size: 5vw;
+                    padding-bottom: 2vw;
+                }
+                li {
+                    font-size: 3vw;
+                }
+            }
+
+        }
+    }
+    .background-color5 {
+        width: 100%;
+        height: 100%;
+        .copyright {
+            width: 85%;
+            height: 100%;
+            padding: 3vw 0;
+            li {
+                font-size: 3vw;
+    
+            }
+        }
+    }
+    
+
 
 
 }
@@ -1872,9 +2146,94 @@
             }
         }
 
-
-
-
     }
+
+    .background-color3 {
+        width: 100%;
+        height: 100%;
+        .journey-today {
+            padding: 14vw 0;
+            .left-j {
+                h2 {
+                    font-size: 10vw;
+                    padding-bottom: 6vw;
+
+                }
+                li {
+                    font-size: 4vw;
+                }
+            }
+            .right-btn {
+                padding-top: 6vw;
+                button {
+                    font-size: 4vw;
+                    padding: 3vw 7vw;
+                    border-radius: 6vw;
+                }
+            }
+        }
+        
+    }
+    .background-color4  {
+        width: 100%;
+        height: 100%;
+        .footer {
+            width: 100%;
+            height: 100%;
+            padding: 14vw 0;
+            .three-section1 {
+                h3 {
+                    font-size: 7vw;
+                    padding-bottom: 3vw;
+                }
+                li {
+                    font-size: 4vw;
+                }
+                .social-icons {
+                    padding-top: 4vw;
+                    i {
+                        font-size: 8vw;
+                    }
+                }
+            }
+            .three-section2 {
+                padding-top: 8vw;
+                h3 {
+                    font-size: 7vw;
+                    padding-bottom: 4vw;
+                }
+                li {
+                    font-size: 4vw;
+                }
+            }
+            .three-section3 {
+                padding-top: 8vw;
+                h3 {
+                    font-size: 7vw;
+                    padding-bottom: 4vw;
+                }
+                li {
+                    font-size: 4vw;
+                }
+            }
+
+        }
+    }
+    .background-color5 {
+        width: 100%;
+        height: 100%;
+        .copyright {
+            width: 85%;
+            height: 100%;
+            padding: 4vw 0;
+            li {
+                font-size: 4vw;
+    
+            }
+        }
+    }
+
+
+
 
 }
