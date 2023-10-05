@@ -96,23 +96,15 @@
 
     }
 
+    .drop-down {
+        display: none;
+    }
+
     .about-container {
         height: 100%;
         width: 85%;
         margin: 0 auto;
         padding: 6vw 0;
-        // h5 {
-        //     padding-top: 1.25vw;
-        //     font-family: @monst;
-        //     font-size: 1.5vw;
-        //     font-style: normal;
-        //     font-weight: 900;
-        //     line-height: 1.2;
-        //     color: @white;
-        //     letter-spacing: 0.1vw;
-        //     text-align: center;
-
-        // }
         h1 {
             padding-top: 1.25vw;
             font-family: @opn-sans;
@@ -124,6 +116,7 @@
             letter-spacing: 0.1vw;
             padding-bottom: 2vw;
         }
+
         li {
             list-style-type: none;
             font-family: @monst;
@@ -141,12 +134,13 @@
             width: 85%;
             margin: 0 auto;
             padding-top: 3vw;
+
             iframe {
                 height: 35vw;
                 width: 100%;
-                
+
             }
-    
+
         }
     }
 }
@@ -154,6 +148,7 @@
 .background-color6 {
     background-color: @drk-blu;
     width: 100%;
+
     .all-options {
         width: 85%;
         height: 100%;
@@ -169,6 +164,7 @@
             height: 100%;
             padding: 4vw 1.5vw;
             border-radius: 2vw;
+
             i {
                 font-size: 3vw;
                 border: 1px solid @white;
@@ -176,6 +172,7 @@
                 padding: 1vw;
                 color: @white;
             }
+
             h2 {
                 padding-top: 1.25vw;
                 font-family: @opn-sans;
@@ -186,6 +183,7 @@
                 letter-spacing: 0.1vw;
                 color: @white;
             }
+
             li {
                 font-family: @monst;
                 font-size: 1.1vw;
@@ -195,16 +193,20 @@
                 letter-spacing: 0.1vw;
                 color: @white;
             }
+
             &:hover {
                 background-color: @white;
                 transition: all 0.3s ease-in-out;
+
                 i {
                     color: @ornge;
                     border-color: @gray;
                 }
+
                 h2 {
                     color: black;
                 }
+
                 li {
                     color: @gray;
                 }
@@ -255,8 +257,38 @@
 
         }
 
+        .drop-down {
+            display: none;
+            width: 100%;
+            background-color: @tonal;
+            padding-top: 16vw;
+            position: fixed;
+            text-align: center;
+            z-index: 100;
+            margin: 0 auto;
+
+            .menu-list {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 4vw;
+                padding-bottom: 4vw;
+
+                a {
+                    text-decoration: none;
+                    font-size: 4vw;
+                    color: @white;
+                    font-family: @opn-sans;
+                    font-weight: 600;
+                }
+
+            }
+        }
+
+
+
         .about-container {
-            padding-top: 20vw;
+            padding-top: 18vw;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -268,48 +300,56 @@
             h1 {
                 font-size: 7vw;
                 padding: 4vw 0;
-                
+
             }
+
             li {
                 font-size: 3vw;
 
             }
+
             .youtube-video {
                 width: 90%;
                 height: 100%;
                 padding-top: 4vw;
+
                 iframe {
                     width: 100%;
                     height: 45vw;
                 }
             }
         }
-    }  
-    
+    }
+
     .background-color6 {
         height: 100%;
         width: 100%;
+
         .all-options {
-          display: flex;
-          flex-direction: column;
-          gap: 4vw;  
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-          padding: 10vw 0;
+            display: flex;
+            flex-direction: column;
+            gap: 4vw;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 10vw 0;
+
             .four-options {
                 height: 100%;
                 width: 60vw;
                 padding: 8vw 3vw;
+
                 i {
                     font-size: 6vw;
                     padding: 3vw;
                     border-radius: 7vw;
                 }
+
                 h2 {
                     font-size: 6vw;
                     padding-top: 4vw;
                 }
+
                 li {
                     font-size: 3vw;
                     line-height: 2;
@@ -344,24 +384,43 @@
             }
 
         }
+
+        .drop-down {
+            padding-top: 26vw;
+            padding-bottom: 10vw;
+
+            .menu-list {
+                width: 100%;
+                gap: 8vw;
+
+                a {
+                    font-size: 6vw;
+                }
+            }
+        }
+
         .about-container {
             padding-top: 26vw;
+            padding-bottom: 12vw;
             width: 100%;
             height: 100%;
 
             h1 {
                 font-size: 10vw;
                 padding: 4vw 0;
-                
+
             }
+
             li {
                 font-size: 4vw;
 
             }
+
             .youtube-video {
                 width: 95%;
                 height: 100%;
                 padding-top: 4vw;
+
                 iframe {
                     width: 100%;
                     height: 75vw;
@@ -370,6 +429,31 @@
         }
 
 
-    }    
-    
+    }
+    .background-color6 {
+        width: 100%;
+        height: 100%;
+        .all-options {
+            gap: 6vw;
+            padding: 14vw 0;
+            .four-options {
+                height: 100%;
+                width: 85vw;
+                i {
+                    font-size: 8vw;
+                    padding: 4vw;
+                    border-radius: 8vw;
+                }
+                h2 { 
+                    font-size: 8vw;
+                    padding-top: 7vw;
+                }
+                li {
+                    font-size: 4.5vw;
+                    line-height: 2.5;
+                }
+            }
+        }
+    }
+
 }

@@ -64,6 +64,9 @@
 .background-color .nav-bar i {
   display: none;
 }
+.background-color .drop-down {
+  display: none;
+}
 .background-color .about-container {
   height: 100%;
   width: 85%;
@@ -185,8 +188,32 @@
     font-size: 8vw;
     color: #fff;
   }
+  .background-color .drop-down {
+    display: none;
+    width: 100%;
+    background-color: #394264;
+    padding-top: 16vw;
+    position: fixed;
+    text-align: center;
+    z-index: 100;
+    margin: 0 auto;
+  }
+  .background-color .drop-down .menu-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    padding-bottom: 4vw;
+  }
+  .background-color .drop-down .menu-list a {
+    text-decoration: none;
+    font-size: 4vw;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 600;
+  }
   .background-color .about-container {
-    padding-top: 20vw;
+    padding-top: 18vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,8 +286,20 @@
     font-size: 10vw;
     color: #fff;
   }
+  .background-color .drop-down {
+    padding-top: 26vw;
+    padding-bottom: 10vw;
+  }
+  .background-color .drop-down .menu-list {
+    width: 100%;
+    gap: 8vw;
+  }
+  .background-color .drop-down .menu-list a {
+    font-size: 6vw;
+  }
   .background-color .about-container {
     padding-top: 26vw;
+    padding-bottom: 12vw;
     width: 100%;
     height: 100%;
   }
@@ -279,5 +318,30 @@
   .background-color .about-container .youtube-video iframe {
     width: 100%;
     height: 75vw;
+  }
+  .background-color6 {
+    width: 100%;
+    height: 100%;
+  }
+  .background-color6 .all-options {
+    gap: 6vw;
+    padding: 14vw 0;
+  }
+  .background-color6 .all-options .four-options {
+    height: 100%;
+    width: 85vw;
+  }
+  .background-color6 .all-options .four-options i {
+    font-size: 8vw;
+    padding: 4vw;
+    border-radius: 8vw;
+  }
+  .background-color6 .all-options .four-options h2 {
+    font-size: 8vw;
+    padding-top: 7vw;
+  }
+  .background-color6 .all-options .four-options li {
+    font-size: 4.5vw;
+    line-height: 2.5;
   }
 }
