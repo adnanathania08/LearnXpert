@@ -305,7 +305,7 @@
   }
   .background-color .about-container h1 {
     font-size: 10vw;
-    padding: 4vw 0;
+    padding: 6vw 0;
   }
   .background-color .about-container li {
     font-size: 4vw;
@@ -313,7 +313,7 @@
   .background-color .about-container .youtube-video {
     width: 95%;
     height: 100%;
-    padding-top: 4vw;
+    padding-top: 6vw;
   }
   .background-color .about-container .youtube-video iframe {
     width: 100%;
@@ -329,7 +329,8 @@
   }
   .background-color6 .all-options .four-options {
     height: 100%;
-    width: 85vw;
+    width: 90vw;
+    padding: 10vw 4vw;
   }
   .background-color6 .all-options .four-options i {
     font-size: 8vw;
