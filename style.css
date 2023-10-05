@@ -64,6 +64,9 @@
 .background-color .nav-bar i {
   display: none;
 }
+.background-color .drop-down {
+  display: none;
+}
 .background-color .xpert-container {
   width: 85%;
   height: 100%;
@@ -877,6 +880,30 @@
     font-size: 8vw;
     color: #fff;
   }
+  .background-color .drop-down {
+    display: none;
+    width: 100%;
+    background-color: #394264;
+    padding-top: 16vw;
+    position: fixed;
+    text-align: center;
+    z-index: 100;
+    margin: 0 auto;
+  }
+  .background-color .drop-down .menu-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    padding-bottom: 4vw;
+  }
+  .background-color .drop-down .menu-list a {
+    text-decoration: none;
+    font-size: 4vw;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 600;
+  }
   .background-color .xpert-container {
     padding-top: 20vw;
     display: flex;
@@ -1371,6 +1398,17 @@
   .background-color .nav-bar i {
     font-size: 10vw;
     color: #fff;
+  }
+  .background-color .drop-down {
+    padding-top: 26vw;
+    padding-bottom: 8vw;
+  }
+  .background-color .drop-down .menu-list {
+    width: 100%;
+    gap: 8vw;
+  }
+  .background-color .drop-down .menu-list a {
+    font-size: 6vw;
   }
   .background-color .xpert-container {
     padding-top: 26vw;

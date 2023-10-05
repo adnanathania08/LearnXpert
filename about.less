@@ -1,0 +1,375 @@
+//------FONT COLORS---------
+@tonal: #394264;
+@drk-blu: #252B42;
+@white: #fff;
+@gray: #737373;
+@ornge: #EC5C2E;
+@lgt-blu: #31A0FE;
+
+
+
+
+//--------FONT FAMILIES-----------
+@monst: 'Montserrat';
+@opn-sans: 'Open Sans';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background-color {
+    background-color: @tonal;
+    width: 100%;
+
+
+    .nav-bar {
+        width: 100%;
+        padding: 0 7.5vw;
+        height: 6vw;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        background-color: @tonal;
+        justify-content: space-between;
+        position: fixed;
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            h5 {
+                padding-left: 0.8vw;
+                color: @white;
+                font-family: @monst;
+                font-size: 1.5vw;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.5vw;
+                letter-spacing: 1px;
+            }
+
+        }
+
+        .nav-content {
+            display: flex;
+            gap: 4vw;
+
+            a {
+                text-decoration: none;
+                font-family: @monst;
+                font-size: 1vw;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.75vw;
+                letter-spacing: 0.1vw;
+                color: @white;
+            }
+        }
+
+        .signup {
+
+            button {
+                border: none;
+                background-color: @white;
+                padding: 0.9vw 2vw;
+                border-radius: 1.5vw;
+                font-family: @monst;
+                font-size: 1vw;
+                font-weight: 900;
+                line-height: 1.75vw;
+                letter-spacing: 0.1vw;
+
+                &:hover {
+                    background-color: lightgray;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+        }
+
+        i {
+            display: none;
+        }
+
+
+    }
+
+    .about-container {
+        height: 100%;
+        width: 85%;
+        margin: 0 auto;
+        padding: 6vw 0;
+        // h5 {
+        //     padding-top: 1.25vw;
+        //     font-family: @monst;
+        //     font-size: 1.5vw;
+        //     font-style: normal;
+        //     font-weight: 900;
+        //     line-height: 1.2;
+        //     color: @white;
+        //     letter-spacing: 0.1vw;
+        //     text-align: center;
+
+        // }
+        h1 {
+            padding-top: 1.25vw;
+            font-family: @opn-sans;
+            font-size: 3.5vw;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 1.2;
+            color: @white;
+            letter-spacing: 0.1vw;
+            padding-bottom: 2vw;
+        }
+        li {
+            list-style-type: none;
+            font-family: @monst;
+            font-size: 1.2vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.5;
+            letter-spacing: 0.1vw;
+            color: @white;
+
+        }
+
+        .youtube-video {
+            height: 100%;
+            width: 85%;
+            margin: 0 auto;
+            padding-top: 3vw;
+            iframe {
+                height: 35vw;
+                width: 100%;
+                
+            }
+    
+        }
+    }
+}
+
+.background-color6 {
+    background-color: @drk-blu;
+    width: 100%;
+    .all-options {
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        list-style-type: none;
+        padding: 5vw 0;
+        justify-content: space-around;
+
+        .four-options {
+            text-align: center;
+            width: 20vw;
+            height: 100%;
+            padding: 4vw 1.5vw;
+            border-radius: 2vw;
+            i {
+                font-size: 3vw;
+                border: 1px solid @white;
+                border-radius: 5vw;
+                padding: 1vw;
+                color: @white;
+            }
+            h2 {
+                padding-top: 1.25vw;
+                font-family: @opn-sans;
+                font-size: 3vw;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 1.2;
+                letter-spacing: 0.1vw;
+                color: @white;
+            }
+            li {
+                font-family: @monst;
+                font-size: 1.1vw;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 1.8;
+                letter-spacing: 0.1vw;
+                color: @white;
+            }
+            &:hover {
+                background-color: @white;
+                transition: all 0.3s ease-in-out;
+                i {
+                    color: @ornge;
+                    border-color: @gray;
+                }
+                h2 {
+                    color: black;
+                }
+                li {
+                    color: @gray;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+//--------MEDIA QUERIES FOR 600PX-----------------------
+@media (max-width:600px) {
+    .background-color {
+        width: 100%;
+
+
+        .nav-bar {
+            width: 100%;
+            height: 16vw;
+            padding: 0 2vw;
+
+            .logo {
+
+                h5 {
+                    padding-left: 1.8vw;
+                    font-size: 3.5vw;
+                }
+            }
+
+            .nav-content {
+                display: none;
+            }
+
+            .signup {
+                display: none;
+            }
+
+            i {
+                display: block;
+                font-size: 8vw;
+                color: @white;
+            }
+
+        }
+
+        .about-container {
+            padding-top: 20vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+
+            h1 {
+                font-size: 7vw;
+                padding: 4vw 0;
+                
+            }
+            li {
+                font-size: 3vw;
+
+            }
+            .youtube-video {
+                width: 90%;
+                height: 100%;
+                padding-top: 4vw;
+                iframe {
+                    width: 100%;
+                    height: 45vw;
+                }
+            }
+        }
+    }  
+    
+    .background-color6 {
+        height: 100%;
+        width: 100%;
+        .all-options {
+          display: flex;
+          flex-direction: column;
+          gap: 4vw;  
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 10vw 0;
+            .four-options {
+                height: 100%;
+                width: 60vw;
+                padding: 8vw 3vw;
+                i {
+                    font-size: 6vw;
+                    padding: 3vw;
+                    border-radius: 7vw;
+                }
+                h2 {
+                    font-size: 6vw;
+                    padding-top: 4vw;
+                }
+                li {
+                    font-size: 3vw;
+                    line-height: 2;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:420px) {
+    .background-color {
+        width: 100%;
+
+
+        .nav-bar {
+            width: 100%;
+            height: 18vw;
+
+            .logo {
+
+                h5 {
+                    padding-left: 1.8vw;
+                    font-size: 4.8vw;
+                }
+            }
+
+
+            i {
+                font-size: 10vw;
+                color: @white;
+            }
+
+        }
+        .about-container {
+            padding-top: 26vw;
+            width: 100%;
+            height: 100%;
+
+            h1 {
+                font-size: 10vw;
+                padding: 4vw 0;
+                
+            }
+            li {
+                font-size: 4vw;
+
+            }
+            .youtube-video {
+                width: 95%;
+                height: 100%;
+                padding-top: 4vw;
+                iframe {
+                    width: 100%;
+                    height: 75vw;
+                }
+            }
+        }
+
+
+    }    
+    
+}
