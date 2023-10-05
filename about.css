@@ -73,6 +73,17 @@
   margin: 0 auto;
   padding: 6vw 0;
 }
+.background-color .about-container h5 {
+  width: 4.4vw;
+  font-size: 1.5vw;
+  font-family: 'Open Sans';
+  color: #fff;
+  padding-bottom: 0.2vw;
+  border-bottom: 2px solid #fff;
+}
+.background-color .about-container h5:hover {
+  border-bottom: 2px solid #EC5C2E;
+}
 .background-color .about-container h1 {
   padding-top: 1.25vw;
   font-family: 'Open Sans';
@@ -107,6 +118,33 @@
 .background-color6 {
   background-color: #252B42;
   width: 100%;
+  padding: 5vw 0;
+}
+.background-color6 .introduction {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.background-color6 .introduction h1 {
+  font-family: 'Open Sans';
+  font-size: 3.5vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #fff;
+  letter-spacing: 0.1vw;
+  padding-bottom: 1vw;
+}
+.background-color6 .introduction p {
+  font-family: 'Montserrat';
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1vw;
+  color: #fff;
+  padding-bottom: 4vw;
 }
 .background-color6 .all-options {
   width: 85%;
@@ -114,7 +152,6 @@
   margin: 0 auto;
   display: flex;
   list-style-type: none;
-  padding: 5vw 0;
   justify-content: space-around;
 }
 .background-color6 .all-options .four-options {
@@ -163,6 +200,77 @@
 }
 .background-color6 .all-options .four-options:hover li {
   color: #737373;
+}
+.background-color7 {
+  width: 100%;
+  height: 100%;
+  background-color: #394264;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+}
+.background-color7 h1 {
+  font-family: 'Open Sans';
+  font-size: 3.5vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #fff;
+  letter-spacing: 0.1vw;
+  padding-bottom: 2vw;
+}
+.background-color7 li {
+  margin: 0 auto;
+  width: 70%;
+  font-family: 'Montserrat';
+  font-size: 1.1vw;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.8;
+  letter-spacing: 0.1vw;
+  color: #fff;
+  list-style-type: none;
+}
+.background-color7 .partner-btns {
+  padding-top: 2vw;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+.background-color7 .partner-btns .instructor button {
+  padding: 1vw 4vw;
+  border-radius: 2vw;
+  font-family: 'Montserrat';
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.1vw;
+  background-color: #EC5C2E;
+  color: #fff;
+  border: 1px solid #EC5C2E;
+}
+.background-color7 .partner-btns .instructor button:hover {
+  background-color: #ba5a3b;
+  transition: all 0.3s ease-in-out;
+}
+.background-color7 .partner-btns .become button {
+  padding: 1vw 4vw;
+  border-radius: 2vw;
+  font-family: 'Montserrat';
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.1vw;
+  background-color: #EC5C2E;
+  color: #fff;
+  border: 1px solid #EC5C2E;
+}
+.background-color7 .partner-btns .become button:hover {
+  background-color: #ba5a3b;
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 600px) {
   .background-color {
@@ -222,6 +330,10 @@
     width: 100%;
     height: 100%;
   }
+  .background-color .about-container h5 {
+    width: 12vw;
+    font-size: 4vw;
+  }
   .background-color .about-container h1 {
     font-size: 7vw;
     padding: 4vw 0;
@@ -241,6 +353,17 @@
   .background-color6 {
     height: 100%;
     width: 100%;
+    padding: 10vw 0;
+  }
+  .background-color6 .introduction {
+    padding-bottom: 4vw;
+  }
+  .background-color6 .introduction h1 {
+    font-size: 7vw;
+    padding-bottom: 3vw;
+  }
+  .background-color6 .introduction p {
+    font-size: 3vw;
   }
   .background-color6 .all-options {
     display: flex;
@@ -249,7 +372,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10vw 0;
   }
   .background-color6 .all-options .four-options {
     height: 100%;
@@ -268,6 +390,36 @@
   .background-color6 .all-options .four-options li {
     font-size: 3vw;
     line-height: 2;
+  }
+  .background-color7 {
+    width: 100%;
+    height: 100%;
+  }
+  .background-color7 h1 {
+    font-size: 7vw;
+    padding-bottom: 3vw;
+  }
+  .background-color7 li {
+    font-size: 3vw;
+    width: 95%;
+  }
+  .background-color7 .partner-btns {
+    padding-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+  }
+  .background-color7 .partner-btns .instructor button {
+    padding: 2vw 8vw;
+    font-size: 3vw;
+    border-radius: 5vw;
+  }
+  .background-color7 .partner-btns .become button {
+    padding: 2vw 10vw;
+    font-size: 3vw;
+    border-radius: 5vw;
   }
 }
 @media (max-width: 420px) {
@@ -303,6 +455,10 @@
     width: 100%;
     height: 100%;
   }
+  .background-color .about-container h5 {
+    width: 15vw;
+    font-size: 5vw;
+  }
   .background-color .about-container h1 {
     font-size: 10vw;
     padding: 6vw 0;
@@ -322,6 +478,17 @@
   .background-color6 {
     width: 100%;
     height: 100%;
+  }
+  .background-color6 .introduction {
+    padding-bottom: 6vw;
+    width: 95%;
+  }
+  .background-color6 .introduction h1 {
+    font-size: 10vw;
+    padding-bottom: 6vw;
+  }
+  .background-color6 .introduction p {
+    font-size: 4vw;
   }
   .background-color6 .all-options {
     gap: 6vw;
@@ -344,5 +511,31 @@
   .background-color6 .all-options .four-options li {
     font-size: 4.5vw;
     line-height: 2.5;
+  }
+  .background-color7 {
+    width: 100%;
+    height: 100%;
+  }
+  .background-color7 h1 {
+    font-size: 10vw;
+    padding-bottom: 6vw;
+  }
+  .background-color7 li {
+    font-size: 4vw;
+    width: 95%;
+  }
+  .background-color7 .partner-btns {
+    padding-top: 6vw;
+    gap: 6vw;
+  }
+  .background-color7 .partner-btns .instructor button {
+    padding: 3vw 10vw;
+    font-size: 4vw;
+    border-radius: 5vw;
+  }
+  .background-color7 .partner-btns .become button {
+    padding: 3vw 12vw;
+    font-size: 4vw;
+    border-radius: 5vw;
   }
 }
