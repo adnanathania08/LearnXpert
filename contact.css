@@ -599,29 +599,29 @@
     font-size: 4vw;
   }
   .background-color8 .contact-container .left-right .right-prt {
-    width: 90%;
+    width: 92%;
     padding-top: 6vw;
   }
   .background-color8 .contact-container .left-right .right-prt .contact-inputs {
     display: flex;
     flex-direction: column;
-    gap: 6vw;
-    margin-bottom: 6vw;
+    gap: 8vw;
+    margin-bottom: 8vw;
   }
   .background-color8 .contact-container .left-right .right-prt .contact-inputs .same {
     margin-bottom: 0;
   }
   .background-color8 .contact-container .left-right .right-prt .contact-inputs .same input {
-    padding: 3vw;
+    padding: 4vw;
     font-size: 4vw;
   }
   .background-color8 .contact-container .left-right .right-prt .message textarea {
     width: 100%;
     font-size: 4vw;
-    padding: 3vw;
+    padding: 4vw;
   }
   .background-color8 .contact-container .left-right .right-prt .submit-btn {
-    padding-top: 8vw;
+    padding-top: 12vw;
   }
   .background-color8 .contact-container .left-right .right-prt .submit-btn button {
     padding: 3vw 12vw;
