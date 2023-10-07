@@ -580,26 +580,33 @@
     padding-top: 12vw;
   }
   .background-color8 .contact-container .left-right .left-prt .in-contact .thing {
-    margin-bottom: 8vw;
+    margin-bottom: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .background-color8 .contact-container .left-right .left-prt .in-contact .thing i {
     font-size: 8vw;
+    padding-bottom: 3vw;
   }
   .background-color8 .contact-container .left-right .left-prt .in-contact .thing .contxt h3 {
     font-size: 5vw;
+    padding-bottom: 3vw;
   }
   .background-color8 .contact-container .left-right .left-prt .in-contact .thing .contxt li {
     font-size: 4vw;
   }
   .background-color8 .contact-container .left-right .right-prt {
-    width: 100%;
+    width: 90%;
     padding-top: 6vw;
   }
   .background-color8 .contact-container .left-right .right-prt .contact-inputs {
     display: flex;
     flex-direction: column;
-    gap: 5vw;
-    margin-bottom: 5vw;
+    gap: 6vw;
+    margin-bottom: 6vw;
   }
   .background-color8 .contact-container .left-right .right-prt .contact-inputs .same {
     margin-bottom: 0;
@@ -612,6 +619,9 @@
     width: 100%;
     font-size: 4vw;
     padding: 3vw;
+  }
+  .background-color8 .contact-container .left-right .right-prt .submit-btn {
+    padding-top: 8vw;
   }
   .background-color8 .contact-container .left-right .right-prt .submit-btn button {
     padding: 3vw 12vw;
