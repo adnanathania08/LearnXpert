@@ -67,150 +67,44 @@
 .background-color .drop-down {
   display: none;
 }
-.background-color .about-container {
+.background-color8 {
+  width: 100%;
   height: 100%;
+  background-color: #394264;
+}
+.background-color8 .contact-container {
   width: 85%;
+  height: 100%;
   margin: 0 auto;
   padding: 6vw 0;
 }
-.background-color .about-container h5 {
-  width: 4.4vw;
+.background-color8 .contact-container h5 {
+  width: 6vw;
   font-size: 1.5vw;
   font-family: 'Open Sans';
   color: #fff;
   padding-bottom: 0.2vw;
   border-bottom: 2px solid #fff;
 }
-.background-color .about-container h5:hover {
+.background-color8 .contact-container h5:hover {
   border-bottom: 2px solid #EC5C2E;
 }
-.background-color .about-container h1 {
-  padding-top: 1.25vw;
-  font-family: 'Open Sans';
-  font-size: 3.5vw;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 1.2;
-  color: #fff;
-  letter-spacing: 0.1vw;
-  padding-bottom: 2vw;
+.background-color8 .contact-container .map {
+  padding: 1.25vw 0;
 }
-.background-color .about-container li {
-  list-style-type: none;
-  font-family: 'Montserrat';
-  font-size: 1.2vw;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.1vw;
-  color: #fff;
-}
-.background-color .about-container .youtube-video {
-  height: 100%;
-  width: 85%;
-  margin: 0 auto;
-  padding-top: 3vw;
-}
-.background-color .about-container .youtube-video iframe {
-  height: 35vw;
+.background-color8 .contact-container .left-right {
   width: 100%;
-}
-.background-color6 {
-  background-color: #252B42;
-  width: 100%;
-  padding: 5vw 0;
-}
-.background-color6 .introduction {
-  width: 85%;
   height: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-.background-color6 .introduction h1 {
-  font-family: 'Open Sans';
-  font-size: 3.5vw;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 1.2;
-  color: #fff;
-  letter-spacing: 0.1vw;
-  padding-bottom: 1vw;
-}
-.background-color6 .introduction p {
-  font-family: 'Montserrat';
-  font-size: 1.2vw;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.1vw;
-  color: #fff;
-  padding-bottom: 4vw;
-}
-.background-color6 .all-options {
-  width: 85%;
-  height: 100%;
-  margin: 0 auto;
+  padding-top: 6vw ;
   display: flex;
-  list-style-type: none;
-  justify-content: space-around;
-}
-.background-color6 .all-options .four-options {
-  text-align: center;
-  width: 20vw;
-  height: 100%;
-  padding: 4vw 1.5vw;
-  border-radius: 2vw;
-}
-.background-color6 .all-options .four-options i {
-  font-size: 3vw;
-  border: 1px solid #fff;
-  border-radius: 5vw;
-  padding: 1vw;
-  color: #fff;
-}
-.background-color6 .all-options .four-options h2 {
-  padding-top: 1.25vw;
-  font-family: 'Open Sans';
-  font-size: 3vw;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 1.2;
-  letter-spacing: 0.1vw;
-  color: #fff;
-}
-.background-color6 .all-options .four-options li {
-  font-family: 'Montserrat';
-  font-size: 1.1vw;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.8;
-  letter-spacing: 0.1vw;
-  color: #fff;
-}
-.background-color6 .all-options .four-options:hover {
-  background-color: #fff;
-  transition: all 0.3s ease-in-out;
-}
-.background-color6 .all-options .four-options:hover i {
-  color: #EC5C2E;
-  border-color: #737373;
-}
-.background-color6 .all-options .four-options:hover h2 {
-  color: black;
-}
-.background-color6 .all-options .four-options:hover li {
-  color: #737373;
-}
-.background-color7 {
-  width: 100%;
-  height: 100%;
-  background-color: #394264;
-  text-align: center;
-  justify-content: center;
+  column-gap: 2vw;
   align-items: center;
-  padding: 5vw;
 }
-.background-color7 h1 {
+.background-color8 .contact-container .left-right .left-prt {
+  width: 58%;
+  list-style-type: none;
+}
+.background-color8 .contact-container .left-right .left-prt h1 {
   font-family: 'Open Sans';
   font-size: 3.5vw;
   font-style: normal;
@@ -218,28 +112,95 @@
   line-height: 1.2;
   color: #fff;
   letter-spacing: 0.1vw;
-  padding-bottom: 2vw;
 }
-.background-color7 li {
-  margin: 0 auto;
-  width: 70%;
+.background-color8 .contact-container .left-right .left-prt p {
+  padding-top: 1.25vw;
   font-family: 'Montserrat';
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   font-style: normal;
-  font-weight: 800;
-  line-height: 1.8;
+  font-weight: 400;
+  line-height: 1.5;
   letter-spacing: 0.1vw;
   color: #fff;
-  list-style-type: none;
 }
-.background-color7 .partner-btns {
-  padding-top: 2vw;
+.background-color8 .contact-container .left-right .left-prt .in-contact {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 4vw;
+}
+.background-color8 .contact-container .left-right .left-prt .in-contact .thing {
   display: flex;
-  justify-content: center;
+  margin-bottom: 5vw;
+  align-items: center;
+}
+.background-color8 .contact-container .left-right .left-prt .in-contact .thing i {
+  font-size: 4.2vw;
+  color: #EC5C2E;
+}
+.background-color8 .contact-container .left-right .left-prt .in-contact .thing .contxt {
+  padding-left: 4vw;
+}
+.background-color8 .contact-container .left-right .left-prt .in-contact .thing .contxt h3 {
+  font-family: 'Open Sans';
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 0.1vw;
+  color: #fff;
+  padding-bottom: 0.5vw;
+}
+.background-color8 .contact-container .left-right .left-prt .in-contact .thing .contxt li {
+  font-family: 'Montserrat';
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1vw;
+  color: #fff;
+}
+.background-color8 .contact-container .left-right .right-prt {
+  width: 45%;
+  height: 100%;
+}
+.background-color8 .contact-container .left-right .right-prt .contact-inputs {
+  display: flex;
+  justify-content: space-around;
   gap: 2vw;
 }
-.background-color7 .partner-btns .instructor button {
-  padding: 1vw 4vw;
+.background-color8 .contact-container .left-right .right-prt .contact-inputs .same {
+  width: 100%;
+  margin-bottom: 2vw;
+}
+.background-color8 .contact-container .left-right .right-prt .contact-inputs .same input {
+  width: 100%;
+  border: none;
+  border-radius: 1vw;
+  font-size: 1.2vw;
+  padding: 1vw;
+}
+.background-color8 .contact-container .left-right .right-prt .contact-inputs .same input::placeholder {
+  font-family: 'Montserrat';
+}
+.background-color8 .contact-container .left-right .right-prt .message {
+  display: flex;
+  justify-content: center;
+}
+.background-color8 .contact-container .left-right .right-prt .message textarea {
+  border: none;
+  border-radius: 1vw;
+  font-size: 1.2vw;
+  padding: 1vw;
+}
+.background-color8 .contact-container .left-right .right-prt .message textarea::placeholder {
+  font-family: 'Montserrat';
+}
+.background-color8 .contact-container .left-right .right-prt .submit-btn {
+  text-align: center;
+  padding-top: 6vw;
+}
+.background-color8 .contact-container .left-right .right-prt .submit-btn button {
+  padding: 1vw 6vw;
   border-radius: 2vw;
   font-family: 'Montserrat';
   font-size: 1.2vw;
@@ -251,24 +212,7 @@
   color: #fff;
   border: 1px solid #EC5C2E;
 }
-.background-color7 .partner-btns .instructor button:hover {
-  background-color: #ba5a3b;
-  transition: all 0.3s ease-in-out;
-}
-.background-color7 .partner-btns .become button {
-  padding: 1vw 4vw;
-  border-radius: 2vw;
-  font-family: 'Montserrat';
-  font-size: 1.2vw;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.5;
-  letter-spacing: 0.1vw;
-  background-color: #EC5C2E;
-  color: #fff;
-  border: 1px solid #EC5C2E;
-}
-.background-color7 .partner-btns .become button:hover {
+.background-color8 .contact-container .left-right .right-prt .submit-btn button:hover {
   background-color: #ba5a3b;
   transition: all 0.3s ease-in-out;
 }
@@ -432,103 +376,82 @@
     font-family: 'Open Sans';
     font-weight: 600;
   }
-  .background-color .about-container {
-    padding-top: 18vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  .background-color8 {
     width: 100%;
     height: 100%;
   }
-  .background-color .about-container h5 {
-    width: 12vw;
+  .background-color8 .contact-container {
+    padding-top: 18vw;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .background-color8 .contact-container h5 {
+    width: 15vw;
+    font-size: 4vw;
+    text-align: center;
+  }
+  .background-color8 .contact-container .map {
+    padding-top: 4vw;
+    width: 100%;
+  }
+  .background-color8 .contact-container .left-right {
+    display: flex;
+    flex-direction: column;
+    padding: 6vw 0;
+  }
+  .background-color8 .contact-container .left-right .left-prt {
+    width: 100%;
+    height: 100%;
+  }
+  .background-color8 .contact-container .left-right .left-prt h1 {
+    font-size: 7vw;
+    text-align: center;
+  }
+  .background-color8 .contact-container .left-right .left-prt p {
+    font-size: 3vw;
+    text-align: center;
+  }
+  .background-color8 .contact-container .left-right .left-prt .in-contact {
+    width: 80%;
+    height: 100%;
+    padding-top: 8vw;
+  }
+  .background-color8 .contact-container .left-right .left-prt .in-contact .thing {
+    margin-bottom: 6vw;
+  }
+  .background-color8 .contact-container .left-right .left-prt .in-contact .thing i {
+    font-size: 6vw;
+  }
+  .background-color8 .contact-container .left-right .left-prt .in-contact .thing .contxt h3 {
     font-size: 4vw;
   }
-  .background-color .about-container h1 {
-    font-size: 7vw;
-    padding: 4vw 0;
-  }
-  .background-color .about-container li {
+  .background-color8 .contact-container .left-right .left-prt .in-contact .thing .contxt li {
     font-size: 3vw;
   }
-  .background-color .about-container .youtube-video {
-    width: 90%;
-    height: 100%;
+  .background-color8 .contact-container .left-right .right-prt {
+    width: 100%;
     padding-top: 4vw;
   }
-  .background-color .about-container .youtube-video iframe {
+  .background-color8 .contact-container .left-right .right-prt .contact-inputs {
+    gap: 2vw;
+  }
+  .background-color8 .contact-container .left-right .right-prt .contact-inputs .same {
+    margin-bottom: 4vw;
+  }
+  .background-color8 .contact-container .left-right .right-prt .contact-inputs .same input {
+    padding: 2vw;
+    font-size: 3vw;
+  }
+  .background-color8 .contact-container .left-right .right-prt .message textarea {
     width: 100%;
-    height: 45vw;
-  }
-  .background-color6 {
-    height: 100%;
-    width: 100%;
-    padding: 10vw 0;
-  }
-  .background-color6 .introduction {
-    padding-bottom: 4vw;
-  }
-  .background-color6 .introduction h1 {
-    font-size: 7vw;
-    padding-bottom: 3vw;
-  }
-  .background-color6 .introduction p {
     font-size: 3vw;
+    padding: 2vw;
   }
-  .background-color6 .all-options {
-    display: flex;
-    flex-direction: column;
-    gap: 4vw;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .background-color6 .all-options .four-options {
-    height: 100%;
-    width: 60vw;
-    padding: 8vw 3vw;
-  }
-  .background-color6 .all-options .four-options i {
-    font-size: 6vw;
-    padding: 3vw;
-    border-radius: 7vw;
-  }
-  .background-color6 .all-options .four-options h2 {
-    font-size: 6vw;
-    padding-top: 4vw;
-  }
-  .background-color6 .all-options .four-options li {
-    font-size: 3vw;
-    line-height: 2;
-  }
-  .background-color7 {
-    width: 100%;
-    height: 100%;
-  }
-  .background-color7 h1 {
-    font-size: 7vw;
-    padding-bottom: 3vw;
-  }
-  .background-color7 li {
-    font-size: 3vw;
-    width: 95%;
-  }
-  .background-color7 .partner-btns {
-    padding-top: 3vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3vw;
-  }
-  .background-color7 .partner-btns .instructor button {
-    padding: 2vw 8vw;
-    font-size: 3vw;
-    border-radius: 5vw;
-  }
-  .background-color7 .partner-btns .become button {
+  .background-color8 .contact-container .left-right .right-prt .submit-btn button {
     padding: 2vw 10vw;
     font-size: 3vw;
     border-radius: 5vw;
@@ -621,95 +544,79 @@
   .background-color .drop-down .menu-list a {
     font-size: 6vw;
   }
-  .background-color .about-container {
-    padding-top: 26vw;
-    padding-bottom: 12vw;
+  .background-color8 {
     width: 100%;
     height: 100%;
   }
-  .background-color .about-container h5 {
-    width: 15vw;
-    font-size: 5vw;
-  }
-  .background-color .about-container h1 {
-    font-size: 10vw;
-    padding: 6vw 0;
-  }
-  .background-color .about-container li {
-    font-size: 4vw;
-  }
-  .background-color .about-container .youtube-video {
-    width: 95%;
+  .background-color8 .contact-container {
     height: 100%;
+    width: 95%;
+  }
+  .background-color8 .contact-container h5 {
+    width: 19vw;
+    font-size: 5vw;
+    text-align: center;
+  }
+  .background-color8 .contact-container .map {
     padding-top: 6vw;
   }
-  .background-color .about-container .youtube-video iframe {
-    width: 100%;
-    height: 75vw;
-  }
-  .background-color6 {
-    width: 100%;
-    height: 100%;
-  }
-  .background-color6 .introduction {
-    padding-bottom: 6vw;
-    width: 95%;
-  }
-  .background-color6 .introduction h1 {
-    font-size: 10vw;
-    padding-bottom: 6vw;
-  }
-  .background-color6 .introduction p {
-    font-size: 4vw;
-  }
-  .background-color6 .all-options {
-    gap: 6vw;
-    padding: 14vw 0;
-  }
-  .background-color6 .all-options .four-options {
-    height: 100%;
-    width: 90vw;
-    padding: 10vw 4vw;
-  }
-  .background-color6 .all-options .four-options i {
-    font-size: 8vw;
-    padding: 4vw;
-    border-radius: 8vw;
-  }
-  .background-color6 .all-options .four-options h2 {
-    font-size: 8vw;
-    padding-top: 7vw;
-  }
-  .background-color6 .all-options .four-options li {
-    font-size: 4.5vw;
-    line-height: 2.5;
-  }
-  .background-color7 {
-    width: 100%;
-    height: 100%;
+  .background-color8 .contact-container .left-right {
     padding: 8vw 0;
   }
-  .background-color7 h1 {
+  .background-color8 .contact-container .left-right .left-prt {
+    width: 100%;
+    height: 100%;
+  }
+  .background-color8 .contact-container .left-right .left-prt h1 {
     font-size: 10vw;
-    padding-bottom: 6vw;
+    padding-bottom: 4vw;
   }
-  .background-color7 li {
+  .background-color8 .contact-container .left-right .left-prt p {
     font-size: 4vw;
-    width: 95%;
   }
-  .background-color7 .partner-btns {
+  .background-color8 .contact-container .left-right .left-prt .in-contact {
+    width: 92%;
+    height: 100%;
+    padding-top: 12vw;
+  }
+  .background-color8 .contact-container .left-right .left-prt .in-contact .thing {
+    margin-bottom: 8vw;
+  }
+  .background-color8 .contact-container .left-right .left-prt .in-contact .thing i {
+    font-size: 8vw;
+  }
+  .background-color8 .contact-container .left-right .left-prt .in-contact .thing .contxt h3 {
+    font-size: 5vw;
+  }
+  .background-color8 .contact-container .left-right .left-prt .in-contact .thing .contxt li {
+    font-size: 4vw;
+  }
+  .background-color8 .contact-container .left-right .right-prt {
+    width: 100%;
     padding-top: 6vw;
-    gap: 6vw;
   }
-  .background-color7 .partner-btns .instructor button {
-    padding: 3vw 10vw;
+  .background-color8 .contact-container .left-right .right-prt .contact-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    margin-bottom: 5vw;
+  }
+  .background-color8 .contact-container .left-right .right-prt .contact-inputs .same {
+    margin-bottom: 0;
+  }
+  .background-color8 .contact-container .left-right .right-prt .contact-inputs .same input {
+    padding: 3vw;
     font-size: 4vw;
-    border-radius: 5vw;
   }
-  .background-color7 .partner-btns .become button {
+  .background-color8 .contact-container .left-right .right-prt .message textarea {
+    width: 100%;
+    font-size: 4vw;
+    padding: 3vw;
+  }
+  .background-color8 .contact-container .left-right .right-prt .submit-btn button {
     padding: 3vw 12vw;
     font-size: 4vw;
-    border-radius: 5vw;
+    border-radius: 6vw;
   }
   .background-color4 {
     width: 100%;
